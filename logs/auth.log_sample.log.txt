@@ -1,0 +1,203 @@
+2025-05-12T21:20:21.555774+00:00 Ubunto gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-05-12T21:20:21.581180+00:00 Ubunto systemd-logind[861]: New session c1 of user gdm.
+2025-05-12T21:20:21.673161+00:00 Ubunto (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-05-12T21:20:26.946685+00:00 Ubunto polkitd[830]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-12T21:20:45.389243+00:00 Ubunto mongod: looking for plugins in '/home/build/build-home/opt/mongo/lib/sasl2', failed to open directory, error: No such file or directory
+2025-05-12T21:20:45.389459+00:00 Ubunto mongod: looking for plugins in '/home/build/build-home/opt/mongo/lib/sasl2', failed to open directory, error: No such file or directory
+2025-05-12T21:21:12.326294+00:00 Ubunto gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=vboxuser
+2025-05-12T21:21:17.324793+00:00 Ubunto gdm-password]: gkr-pam: unable to locate daemon control file
+2025-05-12T21:21:17.324924+00:00 Ubunto gdm-password]: gkr-pam: stashed password to try later in open session
+2025-05-12T21:21:17.346328+00:00 Ubunto gdm-password]: pam_unix(gdm-password:session): session opened for user vboxuser(uid=1000) by vboxuser(uid=0)
+2025-05-12T21:21:17.374007+00:00 Ubunto systemd-logind[861]: New session 2 of user vboxuser.
+2025-05-12T21:21:17.414799+00:00 Ubunto (systemd): pam_unix(systemd-user:session): session opened for user vboxuser(uid=1000) by vboxuser(uid=0)
+2025-05-12T21:21:17.872934+00:00 Ubunto gdm-password]: gkr-pam: unlocked login keyring
+2025-05-12T21:21:18.462115+00:00 Ubunto gnome-keyring-daemon[2978]: The PKCS#11 component was already initialized
+2025-05-12T21:21:18.462754+00:00 Ubunto gnome-keyring-daemon[3166]: discover_other_daemon: 1
+2025-05-12T21:21:18.473728+00:00 Ubunto gnome-keyring-daemon[3173]: discover_other_daemon: 1
+2025-05-12T21:21:18.474573+00:00 Ubunto gnome-keyring-daemon[2978]: The Secret Service was already initialized
+2025-05-12T21:21:18.475678+00:00 Ubunto gnome-keyring-daemon[3174]: discover_other_daemon: 1
+2025-05-12T21:21:21.320097+00:00 Ubunto polkitd[830]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-12T21:21:22.565168+00:00 Ubunto gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-05-12T21:21:22.618742+00:00 Ubunto systemd-logind[861]: Session c1 logged out. Waiting for processes to exit.
+2025-05-12T21:21:22.662544+00:00 Ubunto polkitd[830]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-05-12T21:21:22.678115+00:00 Ubunto systemd-logind[861]: Removed session c1.
+2025-05-12T21:21:33.284559+00:00 Ubunto (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-05-12T21:22:25.545491+00:00 Ubunto pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-12T21:22:25.547707+00:00 Ubunto pkexec[5175]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-12T21:24:42.375221+00:00 Ubunto sudo: pam_unix(sudo:auth): authentication failure; logname=vboxuser uid=1000 euid=0 tty=/dev/pts/0 ruser=vboxuser rhost=  user=vboxuser
+2025-05-12T21:24:47.169728+00:00 Ubunto sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+2025-05-12T21:24:47.173302+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-12T21:24:47.178568+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T21:25:01.103308+00:00 Ubunto CRON[5536]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T21:25:01.109464+00:00 Ubunto CRON[5536]: pam_unix(cron:session): session closed for user root
+2025-05-12T21:27:52.100524+00:00 Ubunto sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/cat /var/log/syslog
+2025-05-12T21:27:52.101741+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-12T21:27:52.132998+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T21:30:01.132849+00:00 Ubunto CRON[6038]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T21:30:01.137614+00:00 Ubunto CRON[6038]: pam_unix(cron:session): session closed for user root
+2025-05-12T21:33:09.984023+00:00 Ubunto sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/su - usuarioinvalido
+2025-05-12T21:33:09.991122+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-12T21:33:09.998542+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T21:34:04.998962+00:00 Ubunto sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/apt update
+2025-05-12T21:34:05.000740+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-12T21:34:22.914302+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T21:34:26.040497+00:00 Ubunto pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-12T21:34:26.045848+00:00 Ubunto pkexec[7299]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-12T21:34:28.977556+00:00 Ubunto sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/apt update
+2025-05-12T21:34:28.982089+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-12T21:34:32.880887+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T21:34:32.896069+00:00 Ubunto sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/apt install openssh-server -y
+2025-05-12T21:34:33.111380+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-12T21:35:01.163084+00:00 Ubunto CRON[7644]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T21:35:01.186264+00:00 Ubunto CRON[7644]: pam_unix(cron:session): session closed for user root
+2025-05-12T21:37:25.800912+00:00 Ubunto pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-12T21:37:25.836574+00:00 Ubunto pkexec[13511]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-12T21:38:53.996030+00:00 Ubunto useradd[19223]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+2025-05-12T21:39:00.919520+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-12T21:40:23.944065+00:00 Ubunto pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-12T21:40:24.017890+00:00 Ubunto pkexec[19721]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-12T21:45:01.225612+00:00 Ubunto CRON[20117]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-12T21:45:01.233693+00:00 Ubunto CRON[20117]: pam_unix(cron:session): session closed for user root
+2025-05-12T21:51:06.874711+00:00 Ubunto gdm-password]: gkr-pam: unlocked login keyring
+2025-05-13T20:23:55.822332+00:00 Ubunto sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2025-05-13T20:23:55.823611+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-13T20:23:56.970356+00:00 Ubunto dbus-daemon[778]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-05-13T20:24:14.771175+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T20:24:25.809789+00:00 Ubunto sshd[21791]: Server listening on :: port 22.
+2025-05-13T20:24:34.272254+00:00 Ubunto sshd[21792]: Invalid user invaliduser from 127.0.0.1 port 52454
+2025-05-13T20:24:47.619361+00:00 Ubunto sshd[21792]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:24:47.621314+00:00 Ubunto sshd[21792]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2025-05-13T20:24:49.335340+00:00 Ubunto sshd[21792]: Failed password for invalid user invaliduser from 127.0.0.1 port 52454 ssh2
+2025-05-13T20:24:53.009363+00:00 Ubunto sshd[21792]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:24:54.869855+00:00 Ubunto sshd[21792]: Failed password for invalid user invaliduser from 127.0.0.1 port 52454 ssh2
+2025-05-13T20:24:56.063142+00:00 Ubunto sshd[21792]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:24:57.667841+00:00 Ubunto sshd[21792]: Failed password for invalid user invaliduser from 127.0.0.1 port 52454 ssh2
+2025-05-13T20:24:57.993375+00:00 Ubunto sshd[21792]: Connection closed by invalid user invaliduser 127.0.0.1 port 52454 [preauth]
+2025-05-13T20:24:57.993803+00:00 Ubunto sshd[21792]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2025-05-13T20:25:01.234814+00:00 Ubunto CRON[21842]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T20:25:01.242348+00:00 Ubunto CRON[21842]: pam_unix(cron:session): session closed for user root
+2025-05-13T20:30:01.371897+00:00 Ubunto CRON[23972]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T20:30:01.430002+00:00 Ubunto CRON[23972]: pam_unix(cron:session): session closed for user root
+2025-05-13T20:35:01.431280+00:00 Ubunto CRON[24347]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T20:35:01.442713+00:00 Ubunto CRON[24347]: pam_unix(cron:session): session closed for user root
+2025-05-13T20:40:17.468161+00:00 Ubunto sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/sbin/adduser thiago
+2025-05-13T20:40:17.514388+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-13T20:40:17.711652+00:00 Ubunto groupadd[24884]: group added to /etc/group: name=thiago, GID=1002
+2025-05-13T20:40:17.723291+00:00 Ubunto groupadd[24884]: group added to /etc/gshadow: name=thiago
+2025-05-13T20:40:17.727445+00:00 Ubunto groupadd[24884]: new group: name=thiago, GID=1002
+2025-05-13T20:40:17.783832+00:00 Ubunto useradd[24891]: new user: name=thiago, UID=1002, GID=1002, home=/home/thiago, shell=/bin/bash, from=/dev/pts/1
+2025-05-13T20:40:51.079718+00:00 Ubunto passwd[24904]: pam_unix(passwd:chauthtok): password changed for thiago
+2025-05-13T20:40:51.082711+00:00 Ubunto passwd[24904]: gkr-pam: couldn't update the login keyring password: no old password was entered
+2025-05-13T20:40:55.830511+00:00 Ubunto chfn[24938]: changed user 'thiago' information
+2025-05-13T20:40:57.624070+00:00 Ubunto gpasswd[24950]: members of group users set by root to vboxuser,thiago
+2025-05-13T20:40:57.629108+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T20:41:25.440760+00:00 Ubunto sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/sbin/adduser admin
+2025-05-13T20:41:25.442843+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-13T20:41:25.535745+00:00 Ubunto groupadd[24989]: group added to /etc/group: name=admin, GID=1003
+2025-05-13T20:41:25.544412+00:00 Ubunto groupadd[24989]: group added to /etc/gshadow: name=admin
+2025-05-13T20:41:25.546695+00:00 Ubunto groupadd[24989]: new group: name=admin, GID=1003
+2025-05-13T20:41:25.584940+00:00 Ubunto useradd[24996]: new user: name=admin, UID=1003, GID=1003, home=/home/admin, shell=/bin/bash, from=/dev/pts/1
+2025-05-13T20:41:32.011913+00:00 Ubunto passwd[25009]: pam_unix(passwd:chauthtok): password changed for admin
+2025-05-13T20:41:32.012296+00:00 Ubunto passwd[25009]: gkr-pam: couldn't update the login keyring password: no old password was entered
+2025-05-13T20:41:33.202194+00:00 Ubunto chfn[25015]: changed user 'admin' information
+2025-05-13T20:41:34.343201+00:00 Ubunto gpasswd[25026]: members of group users set by root to vboxuser,thiago,admin
+2025-05-13T20:41:34.349300+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T20:42:03.248925+00:00 Ubunto su[25068]: (to admin) vboxuser on pts/0
+2025-05-13T20:42:03.341464+00:00 Ubunto su[25068]: pam_unix(su-l:session): session opened for user admin(uid=1003) by vboxuser(uid=1000)
+2025-05-13T20:42:13.789433+00:00 Ubunto su[25096]: (to admin) admin on pts/0
+2025-05-13T20:42:13.818920+00:00 Ubunto su[25096]: pam_unix(su-l:session): session opened for user admin(uid=1003) by vboxuser(uid=1003)
+2025-05-13T20:42:25.497587+00:00 Ubunto sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/su - admin
+2025-05-13T20:42:25.498440+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1003)
+2025-05-13T20:42:25.506132+00:00 Ubunto su[25124]: (to admin) root on pts/1
+2025-05-13T20:42:25.509278+00:00 Ubunto su[25124]: pam_unix(su-l:session): session opened for user admin(uid=1003) by vboxuser(uid=0)
+2025-05-13T20:42:55.158355+00:00 Ubunto sshd[25174]: Invalid user testeuser from 127.0.0.1 port 38178
+2025-05-13T20:43:00.369289+00:00 Ubunto sshd[25174]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:43:00.369617+00:00 Ubunto sshd[25174]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2025-05-13T20:43:02.453985+00:00 Ubunto sshd[25174]: Failed password for invalid user testeuser from 127.0.0.1 port 38178 ssh2
+2025-05-13T20:43:05.809242+00:00 Ubunto sshd[25174]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:43:07.913040+00:00 Ubunto sshd[25174]: Failed password for invalid user testeuser from 127.0.0.1 port 38178 ssh2
+2025-05-13T20:43:10.248919+00:00 Ubunto sshd[25174]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:43:12.373716+00:00 Ubunto sshd[25174]: Failed password for invalid user testeuser from 127.0.0.1 port 38178 ssh2
+2025-05-13T20:43:13.709589+00:00 Ubunto sshd[25174]: Connection closed by invalid user testeuser 127.0.0.1 port 38178 [preauth]
+2025-05-13T20:43:13.710961+00:00 Ubunto sshd[25174]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2025-05-13T20:43:24.727840+00:00 Ubunto su[25216]: (to thiago) admin on pts/1
+2025-05-13T20:43:24.731853+00:00 Ubunto su[25216]: pam_unix(su-l:session): session opened for user thiago(uid=1002) by vboxuser(uid=1003)
+2025-05-13T20:43:38.436978+00:00 Ubunto sshd[25250]: Invalid user testeuser from 127.0.0.1 port 34338
+2025-05-13T20:43:39.880760+00:00 Ubunto sshd[25250]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:43:39.880913+00:00 Ubunto sshd[25250]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2025-05-13T20:43:41.985401+00:00 Ubunto sshd[25250]: Failed password for invalid user testeuser from 127.0.0.1 port 34338 ssh2
+2025-05-13T20:43:44.059169+00:00 Ubunto sshd[25250]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:43:46.184346+00:00 Ubunto sshd[25250]: Failed password for invalid user testeuser from 127.0.0.1 port 34338 ssh2
+2025-05-13T20:43:48.426533+00:00 Ubunto sshd[25250]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:43:50.768413+00:00 Ubunto sshd[25250]: Failed password for invalid user testeuser from 127.0.0.1 port 34338 ssh2
+2025-05-13T20:43:51.888743+00:00 Ubunto sshd[25250]: Connection closed by invalid user testeuser 127.0.0.1 port 34338 [preauth]
+2025-05-13T20:43:51.890282+00:00 Ubunto sshd[25250]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2025-05-13T20:44:58.177196+00:00 Ubunto su[25216]: pam_unix(su-l:session): session closed for user thiago
+2025-05-13T20:45:00.616072+00:00 Ubunto su[25124]: pam_unix(su-l:session): session closed for user admin
+2025-05-13T20:45:00.620262+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T20:45:01.513818+00:00 Ubunto CRON[25406]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-13T20:45:01.519311+00:00 Ubunto CRON[25406]: pam_unix(cron:session): session closed for user root
+2025-05-13T20:45:02.908286+00:00 Ubunto su[25096]: pam_unix(su-l:session): session closed for user admin
+2025-05-13T20:45:08.809975+00:00 Ubunto su: pam_unix(su-l:auth): authentication failure; logname=vboxuser uid=1003 euid=0 tty=/dev/pts/0 ruser=admin rhost=  user=root
+2025-05-13T20:45:11.203915+00:00 Ubunto su[25418]: FAILED SU (to root) admin on pts/0
+2025-05-13T20:45:34.524184+00:00 Ubunto sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/su -
+2025-05-13T20:45:34.525641+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1003)
+2025-05-13T20:45:34.532071+00:00 Ubunto su[25449]: (to root) root on pts/1
+2025-05-13T20:45:34.555197+00:00 Ubunto su[25449]: pam_unix(su-l:session): session opened for user root(uid=0) by vboxuser(uid=0)
+2025-05-13T20:45:48.180968+00:00 Ubunto su[25449]: pam_unix(su-l:session): session closed for user root
+2025-05-13T20:45:48.183318+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T20:45:49.882749+00:00 Ubunto su[25068]: pam_unix(su-l:session): session closed for user admin
+2025-05-13T20:46:04.547445+00:00 Ubunto sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/su -
+2025-05-13T20:46:04.549760+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-13T20:46:04.554958+00:00 Ubunto su[25506]: (to root) root on pts/1
+2025-05-13T20:46:04.555639+00:00 Ubunto su[25506]: pam_unix(su-l:session): session opened for user root(uid=0) by vboxuser(uid=0)
+2025-05-13T20:46:14.218197+00:00 Ubunto sshd[25531]: Invalid user testeuser from 127.0.0.1 port 52006
+2025-05-13T20:46:15.376527+00:00 Ubunto sshd[25531]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:46:15.376676+00:00 Ubunto sshd[25531]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2025-05-13T20:46:17.237234+00:00 Ubunto sshd[25531]: Failed password for invalid user testeuser from 127.0.0.1 port 52006 ssh2
+2025-05-13T20:46:19.601918+00:00 Ubunto sshd[25531]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:46:21.030230+00:00 Ubunto sshd[25531]: Failed password for invalid user testeuser from 127.0.0.1 port 52006 ssh2
+2025-05-13T20:46:22.374508+00:00 Ubunto sshd[25531]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:46:24.857316+00:00 Ubunto sshd[25531]: Failed password for invalid user testeuser from 127.0.0.1 port 52006 ssh2
+2025-05-13T20:46:25.848121+00:00 Ubunto sshd[25531]: Connection closed by invalid user testeuser 127.0.0.1 port 52006 [preauth]
+2025-05-13T20:46:25.848988+00:00 Ubunto sshd[25531]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2025-05-13T20:46:28.021569+00:00 Ubunto su[25506]: pam_unix(su-l:session): session closed for user root
+2025-05-13T20:46:28.025902+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T20:48:20.813584+00:00 Ubunto sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/su -
+2025-05-13T20:48:20.830079+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-13T20:48:20.841131+00:00 Ubunto su[26086]: (to root) root on pts/1
+2025-05-13T20:48:20.842708+00:00 Ubunto su[26086]: pam_unix(su-l:session): session opened for user root(uid=0) by vboxuser(uid=0)
+2025-05-13T20:48:32.525359+00:00 Ubunto sshd[26111]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2025-05-13T20:48:34.521760+00:00 Ubunto sshd[26111]: Failed password for root from 127.0.0.1 port 39162 ssh2
+2025-05-13T20:48:42.645877+00:00 Ubunto sshd[26111]: message repeated 2 times: [ Failed password for root from 127.0.0.1 port 39162 ssh2]
+2025-05-13T20:48:44.031382+00:00 Ubunto sshd[26111]: Connection closed by authenticating user root 127.0.0.1 port 39162 [preauth]
+2025-05-13T20:48:44.031990+00:00 Ubunto sshd[26111]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2025-05-13T20:48:46.390595+00:00 Ubunto su[26086]: pam_unix(su-l:session): session closed for user root
+2025-05-13T20:48:46.394255+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T20:48:55.389916+00:00 Ubunto sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/su - thiago
+2025-05-13T20:48:55.392310+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-13T20:48:55.398470+00:00 Ubunto su[26140]: (to thiago) root on pts/1
+2025-05-13T20:48:55.401738+00:00 Ubunto su[26140]: pam_unix(su-l:session): session opened for user thiago(uid=1002) by vboxuser(uid=0)
+2025-05-13T20:49:02.128174+00:00 Ubunto sshd[26170]: Invalid user thiagouser from 127.0.0.1 port 55428
+2025-05-13T20:49:03.310852+00:00 Ubunto sshd[26170]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:49:03.311034+00:00 Ubunto sshd[26170]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2025-05-13T20:49:05.232003+00:00 Ubunto sshd[26170]: Failed password for invalid user thiagouser from 127.0.0.1 port 55428 ssh2
+2025-05-13T20:49:06.577063+00:00 Ubunto sshd[26170]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:49:08.908941+00:00 Ubunto sshd[26170]: Failed password for invalid user thiagouser from 127.0.0.1 port 55428 ssh2
+2025-05-13T20:49:11.973006+00:00 Ubunto sshd[26170]: pam_unix(sshd:auth): check pass; user unknown
+2025-05-13T20:49:13.986860+00:00 Ubunto sshd[26170]: Failed password for invalid user thiagouser from 127.0.0.1 port 55428 ssh2
+2025-05-13T20:49:14.259969+00:00 Ubunto sshd[26170]: Connection closed by invalid user thiagouser 127.0.0.1 port 55428 [preauth]
+2025-05-13T20:49:14.260381+00:00 Ubunto sshd[26170]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2025-05-13T20:49:16.541988+00:00 Ubunto su[26140]: pam_unix(su-l:session): session closed for user thiago
+2025-05-13T20:49:16.545099+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root
+2025-05-13T20:49:20.582153+00:00 Ubunto sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/su - admin
+2025-05-13T20:49:20.583297+00:00 Ubunto sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2025-05-13T20:49:20.590752+00:00 Ubunto su[26192]: (to admin) root on pts/1
+2025-05-13T20:49:20.594358+00:00 Ubunto su[26192]: pam_unix(su-l:session): session opened for user admin(uid=1003) by vboxuser(uid=0)
+2025-05-13T20:49:28.233166+00:00 Ubunto sshd[26212]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=admin
+2025-05-13T20:49:29.917654+00:00 Ubunto sshd[26212]: Failed password for admin from 127.0.0.1 port 46192 ssh2
+2025-05-13T20:49:38.977081+00:00 Ubunto sshd[26212]: message repeated 2 times: [ Failed password for admin from 127.0.0.1 port 46192 ssh2]
+2025-05-13T20:49:40.229658+00:00 Ubunto sshd[26212]: Connection closed by authenticating user admin 127.0.0.1 port 46192 [preauth]
+2025-05-13T20:49:40.229916+00:00 Ubunto sshd[26212]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=admin
+2025-05-13T20:49:42.808407+00:00 Ubunto su[26192]: pam_unix(su-l:session): session closed for user admin
+2025-05-13T20:49:42.811754+00:00 Ubunto sudo: pam_unix(sudo:session): session closed for user root

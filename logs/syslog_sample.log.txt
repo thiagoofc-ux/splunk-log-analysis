@@ -1,0 +1,1146 @@
+2025-05-12T21:20:21.451900+00:00 Ubunto systemd[1]: Received SIGRTMIN+21 from PID 189 (plymouthd).
+2025-05-12T21:20:21.452201+00:00 Ubunto systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 876 (rsyslogd) on client request.
+2025-05-12T21:20:21.452564+00:00 Ubunto rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="876" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+2025-05-12T21:20:21.468693+00:00 Ubunto systemd[1]: logrotate.service: Deactivated successfully.
+2025-05-12T21:20:21.469999+00:00 Ubunto systemd[1]: Finished logrotate.service - Rotate log files.
+2025-05-12T21:20:21.573561+00:00 Ubunto splunk[855]: Splunk> CSI: Logfiles.
+2025-05-12T21:20:21.573735+00:00 Ubunto splunk[855]: Checking prerequisites...
+2025-05-12T21:20:21.592280+00:00 Ubunto systemd[1]: Created slice user-120.slice - User Slice of UID 120.
+2025-05-12T21:20:21.601434+00:00 Ubunto systemd[1]: Starting user-runtime-dir@120.service - User Runtime Directory /run/user/120...
+2025-05-12T21:20:21.624481+00:00 Ubunto systemd[1]: Finished user-runtime-dir@120.service - User Runtime Directory /run/user/120.
+2025-05-12T21:20:21.634685+00:00 Ubunto systemd[1]: Starting user@120.service - User Manager for UID 120...
+2025-05-12T21:20:21.708319+00:00 Ubunto splunk[855]: #011Checking http port [8000]: open
+2025-05-12T21:20:21.830002+00:00 Ubunto splunk[855]: #011Checking mgmt port [8089]: open
+2025-05-12T21:20:21.930385+00:00 Ubunto snapd[842]: overlord.go:284: Acquiring state lock file
+2025-05-12T21:20:21.930539+00:00 Ubunto snapd[842]: overlord.go:289: Acquired state lock file
+2025-05-12T21:20:21.985375+00:00 Ubunto snapd[842]: daemon.go:250: started snapd/2.68.4 (series 16; classic) ubuntu/24.04 (amd64) linux/6.11.0-21-generic.
+2025-05-12T21:20:22.005084+00:00 Ubunto kernel: loop13: detected capacity change from 0 to 8
+2025-05-12T21:20:22.025028+00:00 Ubunto systemd[1]: tmp-syscheck\x2dmountpoint\x2d64655689.mount: Deactivated successfully.
+2025-05-12T21:20:22.027656+00:00 Ubunto snapd[842]: daemon.go:353: adjusting startup timeout by 1m15s (pessimistic estimate of 30s plus 5s per snap)
+2025-05-12T21:20:22.049734+00:00 Ubunto systemd[1341]: Queued start job for default target default.target.
+2025-05-12T21:20:22.068678+00:00 Ubunto systemd[1341]: Created slice app.slice - User Application Slice.
+2025-05-12T21:20:22.069600+00:00 Ubunto systemd[1341]: Created slice session.slice - User Core Session Slice.
+2025-05-12T21:20:22.070476+00:00 Ubunto systemd[1341]: Started ubuntu-report.path - Pending report trigger for Ubuntu Report.
+2025-05-12T21:20:22.070631+00:00 Ubunto systemd[1341]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+2025-05-12T21:20:22.070944+00:00 Ubunto systemd[1341]: Started snap.firmware-updater.firmware-notifier.timer - Timer firmware-notifier for snap application firmware-updater.firmware-notifier.
+2025-05-12T21:20:22.071064+00:00 Ubunto systemd[1341]: Reached target paths.target - Paths.
+2025-05-12T21:20:22.071135+00:00 Ubunto systemd[1341]: Reached target timers.target - Timers.
+2025-05-12T21:20:22.073526+00:00 Ubunto systemd[1341]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2025-05-12T21:20:22.073813+00:00 Ubunto systemd[1341]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2025-05-12T21:20:22.074906+00:00 Ubunto systemd[1341]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-05-12T21:20:22.075114+00:00 Ubunto systemd[1341]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+2025-05-12T21:20:22.075199+00:00 Ubunto systemd[1341]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2025-05-12T21:20:22.075246+00:00 Ubunto systemd[1341]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2025-05-12T21:20:22.076478+00:00 Ubunto systemd[1341]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-05-12T21:20:22.076686+00:00 Ubunto systemd[1341]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2025-05-12T21:20:22.078180+00:00 Ubunto systemd[1341]: Listening on keyboxd.socket - GnuPG public key management service.
+2025-05-12T21:20:22.078659+00:00 Ubunto systemd[1341]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+2025-05-12T21:20:22.079295+00:00 Ubunto systemd[1341]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+2025-05-12T21:20:22.080067+00:00 Ubunto systemd[1341]: Listening on pk-debconf-helper.socket - debconf communication socket.
+2025-05-12T21:20:22.083275+00:00 Ubunto systemd[1341]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+2025-05-12T21:20:22.084073+00:00 Ubunto systemd[1341]: Listening on speech-dispatcher.socket - Speech Dispatcher Socket.
+2025-05-12T21:20:22.093710+00:00 Ubunto systemd[1341]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2025-05-12T21:20:22.102072+00:00 Ubunto snapd[842]: backends.go:91: AppArmor status: apparmor is enabled and all features are available (using snapd provided apparmor_parser)
+2025-05-12T21:20:22.113200+00:00 Ubunto NetworkManager[980]: <info>  [1747084822.1127] dhcp4 (enp0s3): state changed new lease, address=192.168.0.106, acd pending
+2025-05-12T21:20:22.120981+00:00 Ubunto systemd[1341]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-05-12T21:20:22.121092+00:00 Ubunto systemd[1341]: Reached target sockets.target - Sockets.
+2025-05-12T21:20:22.121288+00:00 Ubunto systemd[1341]: Reached target basic.target - Basic System.
+2025-05-12T21:20:22.121337+00:00 Ubunto systemd[1341]: gnome-initial-setup-copy-worker.service - GNOME Initial Setup Copy Worker was skipped because of an unmet condition check (ConditionUser=!@system).
+2025-05-12T21:20:22.121388+00:00 Ubunto systemd[1]: Started user@120.service - User Manager for UID 120.
+2025-05-12T21:20:22.133248+00:00 Ubunto systemd[1]: Started session-c1.scope - Session c1 of User gdm.
+2025-05-12T21:20:22.135186+00:00 Ubunto systemd[1341]: Started pipewire.service - PipeWire Multimedia Service.
+2025-05-12T21:20:22.138676+00:00 Ubunto systemd[1341]: Started filter-chain.service - PipeWire filter chain daemon.
+2025-05-12T21:20:22.143995+00:00 Ubunto systemd[1341]: Started snap.snapd-desktop-integration.snapd-desktop-integration.service - Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+2025-05-12T21:20:22.158095+00:00 Ubunto systemd[1341]: Started wireplumber.service - Multimedia Service Session Manager.
+2025-05-12T21:20:22.161967+00:00 Ubunto systemd[1341]: Started pipewire-pulse.service - PipeWire PulseAudio.
+2025-05-12T21:20:22.162078+00:00 Ubunto systemd[1341]: Reached target default.target - Main User Target.
+2025-05-12T21:20:22.162119+00:00 Ubunto systemd[1341]: Startup finished in 474ms.
+2025-05-12T21:20:22.187890+00:00 Ubunto splunk[855]: #011Checking appserver port [127.0.0.1:8065]: open
+2025-05-12T21:20:22.191076+00:00 Ubunto systemd[1341]: Starting dbus.service - D-Bus User Message Bus...
+2025-05-12T21:20:22.239218+00:00 Ubunto NetworkManager[980]: <info>  [1747084822.2389] dhcp4 (enp0s3): state changed new lease, address=192.168.0.106
+2025-05-12T21:20:22.240629+00:00 Ubunto NetworkManager[980]: <info>  [1747084822.2405] policy: set 'netplan-enp0s3' (enp0s3) as default for IPv4 routing and DNS
+2025-05-12T21:20:22.248804+00:00 Ubunto avahi-daemon[775]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 192.168.0.106.
+2025-05-12T21:20:22.249111+00:00 Ubunto avahi-daemon[775]: New relevant interface enp0s3.IPv4 for mDNS.
+2025-05-12T21:20:22.249183+00:00 Ubunto avahi-daemon[775]: Registering new address record for 192.168.0.106 on enp0s3.IPv4.
+2025-05-12T21:20:22.252218+00:00 Ubunto systemd-resolved[479]: enp0s3: Bus client set default route setting: yes
+2025-05-12T21:20:22.254768+00:00 Ubunto systemd-resolved[479]: enp0s3: Bus client set DNS server list to: 192.168.0.1
+2025-05-12T21:20:22.265982+00:00 Ubunto NetworkManager[980]: <info>  [1747084822.2655] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+2025-05-12T21:20:22.270511+00:00 Ubunto NetworkManager[980]: <info>  [1747084822.2703] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+2025-05-12T21:20:22.271353+00:00 Ubunto NetworkManager[980]: <info>  [1747084822.2710] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+2025-05-12T21:20:22.275017+00:00 Ubunto NetworkManager[980]: <info>  [1747084822.2735] manager: NetworkManager state is now CONNECTED_SITE
+2025-05-12T21:20:22.275110+00:00 Ubunto NetworkManager[980]: <info>  [1747084822.2741] device (enp0s3): Activation: successful, device activated.
+2025-05-12T21:20:22.275264+00:00 Ubunto NetworkManager[980]: <info>  [1747084822.2752] manager: startup complete
+2025-05-12T21:20:22.290535+00:00 Ubunto systemd[1]: Finished NetworkManager-wait-online.service - Network Manager Wait Online.
+2025-05-12T21:20:22.291875+00:00 Ubunto systemd[1]: Reached target network-online.target - Network is Online.
+2025-05-12T21:20:22.292476+00:00 Ubunto systemd[1]: Started update-notifier-download.timer - Download data for packages that failed at package install time.
+2025-05-12T21:20:22.292650+00:00 Ubunto systemd[1]: Started update-notifier-motd.timer - Check to see whether there is a new version of Ubuntu available.
+2025-05-12T21:20:22.294544+00:00 Ubunto systemd[1]: Reached target timers.target - Timer Units.
+2025-05-12T21:20:22.314358+00:00 Ubunto systemd[1]: Started cups-browsed.service - Make remote CUPS printers available locally.
+2025-05-12T21:20:22.316310+00:00 Ubunto dbus-daemon[1413]: [session uid=120 pid=1413] AppArmor D-Bus mediation is enabled
+2025-05-12T21:20:22.316727+00:00 Ubunto systemd[1341]: Started dbus.service - D-Bus User Message Bus.
+2025-05-12T21:20:22.317717+00:00 Ubunto systemd[1]: Starting kerneloops.service - Tool to automatically collect and submit kernel crash signatures...
+2025-05-12T21:20:22.322775+00:00 Ubunto systemd[1]: ubuntu-advantage.service - Ubuntu Pro Background Auto Attach was skipped because no trigger condition checks were met.
+2025-05-12T21:20:22.326782+00:00 Ubunto dbus-daemon[778]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.27' (uid=120 pid=1399 comm="/usr/bin/pipewire -c filter-chain.conf" label="unconfined")
+2025-05-12T21:20:22.345236+00:00 Ubunto systemd[1]: Starting rtkit-daemon.service - RealtimeKit Scheduling Policy Service...
+2025-05-12T21:20:22.381541+00:00 Ubunto systemd[1]: kerneloops.service: Found left-over process 1448 (kerneloops) in control group while starting unit. Ignoring.
+2025-05-12T21:20:22.381722+00:00 Ubunto systemd[1]: kerneloops.service: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+2025-05-12T21:20:22.398452+00:00 Ubunto dbus-daemon[1413]: [session uid=120 pid=1413] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.6' (uid=120 pid=1400 comm="/usr/bin/snap run snapd-desktop-integration" label="unconfined")
+2025-05-12T21:20:22.399044+00:00 Ubunto dbus-daemon[778]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+2025-05-12T21:20:22.402397+00:00 Ubunto rtkit-daemon[1440]: Successfully called chroot.
+2025-05-12T21:20:22.402530+00:00 Ubunto systemd[1]: Started rtkit-daemon.service - RealtimeKit Scheduling Policy Service.
+2025-05-12T21:20:22.403205+00:00 Ubunto rtkit-daemon[1440]: Successfully dropped privileges.
+2025-05-12T21:20:22.403814+00:00 Ubunto (rneloops)[1449]: kerneloops.service: Referenced but unset environment variable evaluates to an empty string: DAEMON_ARGS
+2025-05-12T21:20:22.407622+00:00 Ubunto rtkit-daemon[1440]: Successfully limited resources.
+2025-05-12T21:20:22.407890+00:00 Ubunto rtkit-daemon[1440]: Running.
+2025-05-12T21:20:22.408176+00:00 Ubunto rtkit-daemon[1440]: Supervising 0 threads of 0 processes of 0 users.
+2025-05-12T21:20:22.408267+00:00 Ubunto rtkit-daemon[1440]: Watchdog thread running.
+2025-05-12T21:20:22.408366+00:00 Ubunto rtkit-daemon[1440]: Canary thread running.
+2025-05-12T21:20:22.408460+00:00 Ubunto rtkit-daemon[1440]: Supervising 0 threads of 0 processes of 0 users.
+2025-05-12T21:20:22.415622+00:00 Ubunto rtkit-daemon[1440]: message repeated 7 times: [ Supervising 0 threads of 0 processes of 0 users.]
+2025-05-12T21:20:22.416729+00:00 Ubunto systemd[1341]: Starting xdg-document-portal.service - flatpak document portal service...
+2025-05-12T21:20:22.424651+00:00 Ubunto systemd[1]: Started kerneloops.service - Tool to automatically collect and submit kernel crash signatures.
+2025-05-12T21:20:22.452409+00:00 Ubunto dbus-daemon[1413]: [session uid=120 pid=1413] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.9' (uid=120 pid=1458 comm="/usr/libexec/xdg-document-portal" label="unconfined")
+2025-05-12T21:20:22.457549+00:00 Ubunto pipewire[1398]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+2025-05-12T21:20:22.470472+00:00 Ubunto systemd[1341]: Starting xdg-permission-store.service - sandboxed app permission store...
+2025-05-12T21:20:22.488494+00:00 Ubunto dbus-daemon[1413]: [session uid=120 pid=1413] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+2025-05-12T21:20:22.488932+00:00 Ubunto systemd[1341]: Started xdg-permission-store.service - sandboxed app permission store.
+2025-05-12T21:20:22.492439+00:00 Ubunto dbus-daemon[1413]: [session uid=120 pid=1413] Successfully activated service 'org.freedesktop.portal.Documents'
+2025-05-12T21:20:22.492653+00:00 Ubunto systemd[1341]: Started xdg-document-portal.service - flatpak document portal service.
+2025-05-12T21:20:22.523688+00:00 Ubunto xdg-document-portal[1458]: Ignoring invalid max threads value 4294967295 > max (100000).
+2025-05-12T21:20:22.559801+00:00 Ubunto splunk[855]: #011Checking kvstore port [8191]: open
+2025-05-12T21:20:22.567534+00:00 Ubunto systemd[1]: Cannot find unit for notify message of PID 1483, ignoring.
+2025-05-12T21:20:22.591922+00:00 Ubunto kernel: kauditd_printk_skb: 145 callbacks suppressed
+2025-05-12T21:20:22.592042+00:00 Ubunto kernel: audit: type=1400 audit(1747084822.590:157): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/24505/usr/lib/snapd/snap-confine" pid=1400 comm="snap-confine" capability=12  capname="net_admin"
+2025-05-12T21:20:22.592074+00:00 Ubunto kernel: audit: type=1400 audit(1747084822.590:158): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/24505/usr/lib/snapd/snap-confine" pid=1400 comm="snap-confine" capability=38  capname="perfmon"
+2025-05-12T21:20:22.598160+00:00 Ubunto kernel: audit: type=1400 audit(1747084822.596:159): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/24505/usr/lib/snapd/snap-confine" pid=1400 comm="snap-confine" capability=4  capname="fsetid"
+2025-05-12T21:20:22.605059+00:00 Ubunto systemd[1]: Started snapd.service - Snap Daemon.
+2025-05-12T21:20:22.606975+00:00 Ubunto dbus-daemon[778]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.35' (uid=0 pid=842 comm="/usr/lib/snapd/snapd" label="unconfined")
+2025-05-12T21:20:22.625452+00:00 Ubunto systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2025-05-12T21:20:22.667698+00:00 Ubunto NetworkManager[980]: <info>  [1747084822.6674] manager: NetworkManager state is now CONNECTED_GLOBAL
+2025-05-12T21:20:22.684971+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=120 pid=1444 comm="/usr/libexec/gnome-session-binary --autostart /usr" label="unconfined")
+2025-05-12T21:20:22.686191+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 1446 of process 1399 owned by '120' RT at priority 20.
+2025-05-12T21:20:22.686817+00:00 Ubunto rtkit-daemon[1440]: Supervising 1 threads of 1 processes of 1 users.
+2025-05-12T21:20:22.688842+00:00 Ubunto rtkit-daemon[1440]: message repeated 3 times: [ Supervising 1 threads of 1 processes of 1 users.]
+2025-05-12T21:20:22.691370+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+2025-05-12T21:20:22.691795+00:00 Ubunto gnome-session-binary[1444]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+2025-05-12T21:20:22.691998+00:00 Ubunto gnome-session[1444]: gnome-session-binary[1444]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+2025-05-12T21:20:22.698003+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 1398 of process 1398 owned by '120' high priority at nice level -11.
+2025-05-12T21:20:22.698178+00:00 Ubunto rtkit-daemon[1440]: Supervising 2 threads of 2 processes of 1 users.
+2025-05-12T21:20:22.711214+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 1465 of process 1398 owned by '120' RT at priority 20.
+2025-05-12T21:20:22.713071+00:00 Ubunto wireplumber[1401]: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+2025-05-12T21:20:22.713263+00:00 Ubunto rtkit-daemon[1440]: Supervising 3 threads of 2 processes of 1 users.
+2025-05-12T21:20:22.713380+00:00 Ubunto wireplumber[1401]: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+2025-05-12T21:20:22.718272+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 1403 of process 1403 owned by '120' high priority at nice level -11.
+2025-05-12T21:20:22.718352+00:00 Ubunto rtkit-daemon[1440]: Supervising 4 threads of 3 processes of 1 users.
+2025-05-12T21:20:22.720924+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 1461 of process 1403 owned by '120' RT at priority 20.
+2025-05-12T21:20:22.721079+00:00 Ubunto rtkit-daemon[1440]: Supervising 5 threads of 3 processes of 1 users.
+2025-05-12T21:20:22.724452+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 1401 of process 1401 owned by '120' high priority at nice level -11.
+2025-05-12T21:20:22.724770+00:00 Ubunto rtkit-daemon[1440]: Supervising 6 threads of 4 processes of 1 users.
+2025-05-12T21:20:22.732031+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 1452 of process 1401 owned by '120' RT at priority 20.
+2025-05-12T21:20:22.732181+00:00 Ubunto rtkit-daemon[1440]: Supervising 7 threads of 4 processes of 1 users.
+2025-05-12T21:20:22.755935+00:00 Ubunto dbus-daemon[778]: [system] Successfully activated service 'org.freedesktop.timedate1'
+2025-05-12T21:20:22.756651+00:00 Ubunto systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2025-05-12T21:20:22.790994+00:00 Ubunto systemd[1]: Finished snapd.seeded.service - Wait until snapd is fully seeded.
+2025-05-12T21:20:22.792927+00:00 Ubunto systemd[1]: snapd.autoimport.service - Auto import assertions from block devices was skipped because no trigger condition checks were met.
+2025-05-12T21:20:22.831062+00:00 Ubunto wireplumber[1401]: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+2025-05-12T21:20:22.845647+00:00 Ubunto wireplumber[1401]: BlueZ system service is not available
+2025-05-12T21:20:22.991274+00:00 Ubunto wireplumber[1401]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:20:22.992042+00:00 Ubunto wireplumber[1401]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:20:22.992348+00:00 Ubunto wireplumber[1401]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:20:22.992660+00:00 Ubunto wireplumber[1401]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:20:22.992976+00:00 Ubunto wireplumber[1401]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:20:22.993616+00:00 Ubunto wireplumber[1401]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:20:22.993766+00:00 Ubunto wireplumber[1401]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:20:22.993881+00:00 Ubunto wireplumber[1401]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:20:22.993975+00:00 Ubunto wireplumber[1401]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:20:22.994786+00:00 Ubunto wireplumber[1401]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:20:23.108805+00:00 Ubunto avahi-daemon[775]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::a00:27ff:fea4:a6c2.
+2025-05-12T21:20:23.109047+00:00 Ubunto avahi-daemon[775]: New relevant interface enp0s3.IPv6 for mDNS.
+2025-05-12T21:20:23.109268+00:00 Ubunto avahi-daemon[775]: Registering new address record for fe80::a00:27ff:fea4:a6c2 on enp0s3.*.
+2025-05-12T21:20:23.452833+00:00 Ubunto kernel: audit: type=1400 audit(1747084823.450:160): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.snapd-desktop-integration" name="/proc/1521/maps" pid=1521 comm="5" requested_mask="r" denied_mask="r" fsuid=120 ouid=0
+2025-05-12T21:20:23.468551+00:00 Ubunto snapd-desktop-integration.snapd-desktop-integration[1400]: Sorry, home directories outside of /home needs configuration.
+2025-05-12T21:20:23.468807+00:00 Ubunto snapd-desktop-integration.snapd-desktop-integration[1400]: See https://forum.snapcraft.io/t/11209 for details.
+2025-05-12T21:20:23.471049+00:00 Ubunto systemd[1341]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Main process exited, code=exited, status=1/FAILURE
+2025-05-12T21:20:23.471190+00:00 Ubunto systemd[1341]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+2025-05-12T21:20:23.770075+00:00 Ubunto ModemManager[1043]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+2025-05-12T21:20:24.140823+00:00 Ubunto gnome-shell[1510]: Running GNOME Shell (using mutter 46.2) as a Wayland display server
+2025-05-12T21:20:24.351803+00:00 Ubunto splunk[1484]: #011Checking configuration... Done.
+2025-05-12T21:20:24.447863+00:00 Ubunto rtkit-daemon[1440]: Supervising 7 threads of 4 processes of 1 users.
+2025-05-12T21:20:24.449343+00:00 Ubunto rtkit-daemon[1440]: Supervising 7 threads of 4 processes of 1 users.
+2025-05-12T21:20:24.456648+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 1560 of process 1510 owned by '120' RT at priority 20.
+2025-05-12T21:20:24.456968+00:00 Ubunto rtkit-daemon[1440]: Supervising 8 threads of 5 processes of 1 users.
+2025-05-12T21:20:24.457479+00:00 Ubunto gnome-shell[1510]: Made thread 'KMS thread' realtime scheduled
+2025-05-12T21:20:24.474346+00:00 Ubunto org.gnome.Shell.desktop[1510]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:20:24.656521+00:00 Ubunto org.gnome.Shell.desktop[1510]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:20:24.656593+00:00 Ubunto org.gnome.Shell.desktop[1510]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:20:24.665668+00:00 Ubunto org.gnome.Shell.desktop[1510]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:20:24.665894+00:00 Ubunto org.gnome.Shell.desktop[1510]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:20:24.673900+00:00 Ubunto org.gnome.Shell.desktop[1510]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:20:24.675545+00:00 Ubunto org.gnome.Shell.desktop[1510]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:20:24.677398+00:00 Ubunto gnome-shell[1510]: Added device '/dev/dri/card0' (vmwgfx) using atomic mode setting.
+2025-05-12T21:20:24.679767+00:00 Ubunto gnome-shell[1510]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+2025-05-12T21:20:24.680096+00:00 Ubunto gnome-shell[1510]: Created gbm renderer for '/dev/dri/card0'
+2025-05-12T21:20:24.680239+00:00 Ubunto gnome-shell[1510]: Boot VGA GPU /dev/dri/card0 selected as primary
+2025-05-12T21:20:24.900598+00:00 Ubunto splunk[1578]: #011Checking critical directories...#011Done
+2025-05-12T21:20:24.900700+00:00 Ubunto splunk[1578]: #011Checking indexes...
+2025-05-12T21:20:24.900735+00:00 Ubunto splunk[1578]: #011#011Validated: _audit _configtracker _dsappevent _dsclient _dsphonehome _internal _introspection _metrics _metrics_rollup _telemetry _thefishbucket history main summary
+2025-05-12T21:20:24.900756+00:00 Ubunto splunk[1578]: #011Done
+2025-05-12T21:20:24.999888+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Activating service name='org.a11y.Bus' requested by ':1.4' (uid=120 pid=1510 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:20:25.010147+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Successfully activated service 'org.a11y.Bus'
+2025-05-12T21:20:25.027633+00:00 Ubunto gnome-shell[1510]: Using public X11 display :1024, (using :1025 for managed services)
+2025-05-12T21:20:25.027963+00:00 Ubunto gnome-shell[1510]: Using Wayland display name 'wayland-0'
+2025-05-12T21:20:25.145628+00:00 Ubunto org.gnome.Shell.desktop[1597]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:20:25.145748+00:00 Ubunto org.gnome.Shell.desktop[1597]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:20:25.158448+00:00 Ubunto org.gnome.Shell.desktop[1597]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:20:25.158536+00:00 Ubunto org.gnome.Shell.desktop[1597]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:20:25.168816+00:00 Ubunto org.gnome.Shell.desktop[1597]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:20:25.168943+00:00 Ubunto org.gnome.Shell.desktop[1597]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:20:25.294665+00:00 Ubunto /usr/libexec/gdm-wayland-session[1593]: dbus-daemon[1593]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=120 pid=1510 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:20:25.296679+00:00 Ubunto dbus-daemon[778]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.41' (uid=120 pid=1510 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:20:25.311014+00:00 Ubunto org.gnome.Shell.desktop[1597]: Failed to initialize glamor, falling back to sw
+2025-05-12T21:20:25.315522+00:00 Ubunto /usr/libexec/gdm-wayland-session[1593]: dbus-daemon[1593]: Successfully activated service 'org.a11y.atspi.Registry'
+2025-05-12T21:20:25.316298+00:00 Ubunto /usr/libexec/gdm-wayland-session[1599]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+2025-05-12T21:20:25.319792+00:00 Ubunto systemd[1]: Starting colord.service - Manage, Install and Generate Color Profiles...
+2025-05-12T21:20:25.432563+00:00 Ubunto colord[1600]: failed to get edid data: EDID length is too small
+2025-05-12T21:20:25.440306+00:00 Ubunto dbus-daemon[778]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+2025-05-12T21:20:25.440690+00:00 Ubunto systemd[1]: Started colord.service - Manage, Install and Generate Color Profiles.
+2025-05-12T21:20:26.215668+00:00 Ubunto gnome-shell[1510]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+2025-05-12T21:20:26.217921+00:00 Ubunto gnome-shell[1510]: Will monitor session c1
+2025-05-12T21:20:26.227881+00:00 Ubunto dbus-daemon[778]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.41' (uid=120 pid=1510 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:20:26.256885+00:00 Ubunto systemd[1]: Starting systemd-localed.service - Locale Service...
+2025-05-12T21:20:26.328912+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Activating service name='org.gnome.Shell.Screencast' requested by ':1.3' (uid=120 pid=1510 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:20:26.402287+00:00 Ubunto dbus-daemon[778]: [system] Successfully activated service 'org.freedesktop.locale1'
+2025-05-12T21:20:26.403719+00:00 Ubunto systemd[1]: Started systemd-localed.service - Locale Service.
+2025-05-12T21:20:26.449063+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.3' (uid=120 pid=1510 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:20:26.459555+00:00 Ubunto splunk[855]: #011Checking filesystem compatibility...  Done
+2025-05-12T21:20:26.459652+00:00 Ubunto splunk[855]: #011Checking conf files for problems...
+2025-05-12T21:20:26.459693+00:00 Ubunto splunk[855]: #011Done
+2025-05-12T21:20:26.459720+00:00 Ubunto splunk[855]: #011Checking default conf files for edits...
+2025-05-12T21:20:26.459746+00:00 Ubunto splunk[855]: #011Validating installed files against hashes from '/opt/splunk/splunk-9.4.1-e3bdab203ac8-linux-amd64-manifest'
+2025-05-12T21:20:26.477514+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+2025-05-12T21:20:26.566955+00:00 Ubunto dbus-daemon[778]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.41' (uid=120 pid=1510 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:20:26.572465+00:00 Ubunto dbus-daemon[778]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.41' (uid=120 pid=1510 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:20:26.579178+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Activating service name='org.gnome.Shell.Notifications' requested by ':1.3' (uid=120 pid=1510 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:20:26.587433+00:00 Ubunto systemd[1]: Starting packagekit.service - PackageKit Daemon...
+2025-05-12T21:20:26.607584+00:00 Ubunto systemd[1]: Starting upower.service - Daemon for power management...
+2025-05-12T21:20:26.607788+00:00 Ubunto gnome-shell[1510]: Extension ding@rastersoft.com already installed in /usr/share/gnome-shell/extensions/ding@rastersoft.com. /usr/share/gnome-shell/extensions/ding@rastersoft.com will not be loaded
+2025-05-12T21:20:26.607856+00:00 Ubunto gnome-shell[1510]: Extension tiling-assistant@ubuntu.com already installed in /usr/share/gnome-shell/extensions/tiling-assistant@ubuntu.com. /usr/share/gnome-shell/extensions/tiling-assistant@ubuntu.com will not be loaded
+2025-05-12T21:20:26.607910+00:00 Ubunto gnome-shell[1510]: Extension ubuntu-appindicators@ubuntu.com already installed in /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com. /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com will not be loaded
+2025-05-12T21:20:26.607964+00:00 Ubunto gnome-shell[1510]: Extension ubuntu-dock@ubuntu.com already installed in /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com. /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com will not be loaded
+2025-05-12T21:20:26.617419+00:00 Ubunto org.gnome.Shell.desktop[1510]: Window manager warning: Failed to parse saved session file: Failed to open file “/var/lib/gdm3/.config/mutter/sessions/102c9e07718595c96d174708482279368300000014440000.ms”: No such file or directory
+2025-05-12T21:20:26.626006+00:00 Ubunto PackageKit: daemon start
+2025-05-12T21:20:26.786152+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Successfully activated service 'org.gnome.Shell.Notifications'
+2025-05-12T21:20:26.797242+00:00 Ubunto dbus-daemon[778]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+2025-05-12T21:20:26.797528+00:00 Ubunto systemd[1]: Started packagekit.service - PackageKit Daemon.
+2025-05-12T21:20:26.879181+00:00 Ubunto gnome-shell[1510]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+2025-05-12T21:20:26.913548+00:00 Ubunto kernel: rfkill: input handler disabled
+2025-05-12T21:20:26.929751+00:00 Ubunto dbus-daemon[778]: [system] Successfully activated service 'org.freedesktop.UPower'
+2025-05-12T21:20:26.930611+00:00 Ubunto systemd[1]: Started upower.service - Daemon for power management.
+2025-05-12T21:20:26.982841+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Activating service name='org.freedesktop.systemd1' requested by ':1.10' (uid=120 pid=1667 comm="/usr/libexec/gsd-sharing" label="unconfined")
+2025-05-12T21:20:26.991552+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+2025-05-12T21:20:26.999926+00:00 Ubunto gsd-sharing[1667]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+2025-05-12T21:20:27.000658+00:00 Ubunto gsd-sharing[1667]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+2025-05-12T21:20:27.041861+00:00 Ubunto org.gnome.Shell.desktop[1597]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:20:27.074701+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Activating service name='org.freedesktop.portal.IBus' requested by ':1.24' (uid=120 pid=1717 comm="ibus-daemon --panel disable" label="unconfined")
+2025-05-12T21:20:27.094756+00:00 Ubunto NetworkManager[980]: <info>  [1747084827.0943] agent-manager: agent[8fdb658e97962b44,:1.41/org.gnome.Shell.NetworkAgent/120]: agent registered
+2025-05-12T21:20:27.113587+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Successfully activated service 'org.freedesktop.portal.IBus'
+2025-05-12T21:20:27.167045+00:00 Ubunto org.gnome.Shell.desktop[1845]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+2025-05-12T21:20:27.167142+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+2025-05-12T21:20:27.167175+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+2025-05-12T21:20:27.167201+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+2025-05-12T21:20:27.167253+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86NextElement
+2025-05-12T21:20:27.167390+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86PreviousElement
+2025-05-12T21:20:27.167419+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+2025-05-12T21:20:27.167442+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+2025-05-12T21:20:27.167466+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86Sos
+2025-05-12T21:20:27.167489+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86NavChart
+2025-05-12T21:20:27.167513+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86FishingChart
+2025-05-12T21:20:27.167556+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+2025-05-12T21:20:27.167589+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+2025-05-12T21:20:27.167614+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86RadarOverlay
+2025-05-12T21:20:27.167638+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+2025-05-12T21:20:27.167662+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+2025-05-12T21:20:27.167692+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86SidevuSonar
+2025-05-12T21:20:27.167721+00:00 Ubunto org.gnome.Shell.desktop[1845]: > Warning:          Could not resolve keysym XF86NavInfo
+2025-05-12T21:20:27.169051+00:00 Ubunto org.gnome.Shell.desktop[1845]: Errors from xkbcomp are not fatal to the X server
+2025-05-12T21:20:27.352910+00:00 Ubunto dbus-daemon[778]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.41' (uid=120 pid=1510 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:20:27.377042+00:00 Ubunto systemd[1]: Starting geoclue.service - Location Lookup Service...
+2025-05-12T21:20:27.567010+00:00 Ubunto dbus-daemon[778]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+2025-05-12T21:20:27.571764+00:00 Ubunto systemd[1]: Started geoclue.service - Location Lookup Service.
+2025-05-12T21:20:27.711041+00:00 Ubunto org.gnome.Shell.desktop[1897]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+2025-05-12T21:20:27.711332+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Unsupported maximum keycode 708, clipping.
+2025-05-12T21:20:27.711442+00:00 Ubunto org.gnome.Shell.desktop[1897]: >                   X11 cannot support keycodes above 255.
+2025-05-12T21:20:27.716116+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+2025-05-12T21:20:27.716311+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+2025-05-12T21:20:27.716639+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+2025-05-12T21:20:27.716843+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86NextElement
+2025-05-12T21:20:27.718324+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86PreviousElement
+2025-05-12T21:20:27.718592+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+2025-05-12T21:20:27.718727+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+2025-05-12T21:20:27.718829+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86Sos
+2025-05-12T21:20:27.718933+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86NavChart
+2025-05-12T21:20:27.719031+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86FishingChart
+2025-05-12T21:20:27.719252+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+2025-05-12T21:20:27.719371+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+2025-05-12T21:20:27.719474+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86RadarOverlay
+2025-05-12T21:20:27.719573+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+2025-05-12T21:20:27.719732+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+2025-05-12T21:20:27.719857+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86SidevuSonar
+2025-05-12T21:20:27.719970+00:00 Ubunto org.gnome.Shell.desktop[1897]: > Warning:          Could not resolve keysym XF86NavInfo
+2025-05-12T21:20:27.720081+00:00 Ubunto org.gnome.Shell.desktop[1897]: Errors from xkbcomp are not fatal to the X server
+2025-05-12T21:20:27.780464+00:00 Ubunto org.gnome.Shell.desktop[1884]: libEGL warning: DRI3: Screen seems not DRI3 capable
+2025-05-12T21:20:27.780544+00:00 Ubunto org.gnome.Shell.desktop[1884]: libEGL warning: DRI3: Screen seems not DRI3 capable
+2025-05-12T21:20:27.810832+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Activating service name='org.freedesktop.portal.IBus' requested by ':1.34' (uid=120 pid=1889 comm="ibus-daemon --panel disable -r --xim" label="unconfined")
+2025-05-12T21:20:27.850493+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Successfully activated service 'org.freedesktop.portal.IBus'
+2025-05-12T21:20:27.891144+00:00 Ubunto spice-vdagent[1920]: vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0 does not exist, exiting
+2025-05-12T21:20:27.903352+00:00 Ubunto gnome-session-binary[1444]: Entering running state
+2025-05-12T21:20:27.924593+00:00 Ubunto xbrlapi.desktop[1925]: openConnection: connect: No such file or directory
+2025-05-12T21:20:27.924801+00:00 Ubunto xbrlapi.desktop[1925]: cannot connect to braille devices daemon brltty at :0
+2025-05-12T21:20:27.961564+00:00 Ubunto splunk[1914]: PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2025-05-12T21:20:28.060115+00:00 Ubunto splunk[855]: #011All installed files intact.
+2025-05-12T21:20:28.060217+00:00 Ubunto splunk[855]: #011Done
+2025-05-12T21:20:28.060260+00:00 Ubunto splunk[855]: All preliminary checks passed.
+2025-05-12T21:20:28.060289+00:00 Ubunto splunk[855]: Starting splunk server daemon (splunkd)...
+2025-05-12T21:20:28.060391+00:00 Ubunto splunk[855]: Done
+2025-05-12T21:20:28.186281+00:00 Ubunto gnome-shell[1510]: Registering session with GDM
+2025-05-12T21:20:28.228790+00:00 Ubunto systemd[1]: Finished plymouth-quit-wait.service - Hold until boot process finishes up.
+2025-05-12T21:20:28.244139+00:00 Ubunto systemd[1]: Starting setvtrgb.service - Set console scheme...
+2025-05-12T21:20:28.251855+00:00 Ubunto systemd[1]: Finished setvtrgb.service - Set console scheme.
+2025-05-12T21:20:28.254004+00:00 Ubunto systemd[1]: Created slice system-getty.slice - Slice /system/getty.
+2025-05-12T21:20:28.311857+00:00 Ubunto dbus-daemon[778]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.41' (uid=120 pid=1510 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:20:28.330346+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Successfully activated service 'org.gnome.Shell.Screencast'
+2025-05-12T21:20:28.333293+00:00 Ubunto systemd[1]: Starting fprintd.service - Fingerprint Authentication Daemon...
+2025-05-12T21:20:28.346368+00:00 Ubunto gsd-media-keys[1702]: Failed to grab accelerator for keybinding settings:hibernate
+2025-05-12T21:20:28.346478+00:00 Ubunto gsd-media-keys[1702]: Failed to grab accelerator for keybinding settings:playback-repeat
+2025-05-12T21:20:28.375551+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Activating service name='org.gnome.ScreenSaver' requested by ':1.23' (uid=120 pid=1751 comm="/usr/libexec/gsd-power" label="unconfined")
+2025-05-12T21:20:28.491102+00:00 Ubunto /usr/libexec/gdm-wayland-session[1441]: dbus-daemon[1441]: [session uid=120 pid=1441] Successfully activated service 'org.gnome.ScreenSaver'
+2025-05-12T21:20:28.508291+00:00 Ubunto dbus-daemon[778]: [system] Successfully activated service 'net.reactivated.Fprint'
+2025-05-12T21:20:28.508642+00:00 Ubunto systemd[1]: Started fprintd.service - Fingerprint Authentication Daemon.
+2025-05-12T21:20:28.605410+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 1560 of process 1510 owned by '120' high priority at nice level 0.
+2025-05-12T21:20:28.605630+00:00 Ubunto rtkit-daemon[1440]: Supervising 8 threads of 5 processes of 1 users.
+2025-05-12T21:20:28.613330+00:00 Ubunto rtkit-daemon[1440]: Supervising 7 threads of 4 processes of 1 users.
+2025-05-12T21:20:28.614608+00:00 Ubunto rtkit-daemon[1440]: Supervising 7 threads of 4 processes of 1 users.
+2025-05-12T21:20:28.625115+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 1560 of process 1510 owned by '120' RT at priority 20.
+2025-05-12T21:20:28.625379+00:00 Ubunto rtkit-daemon[1440]: Supervising 8 threads of 5 processes of 1 users.
+2025-05-12T21:20:28.667354+00:00 Ubunto org.gnome.Shell.desktop[1884]: MESA: error: ZINK: failed to choose pdev
+2025-05-12T21:20:28.671016+00:00 Ubunto org.gnome.Shell.desktop[1884]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:20:29.955879+00:00 Ubunto systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2025-05-12T21:20:35.991815+00:00 Ubunto systemd[1]: dmesg.service: Deactivated successfully.
+2025-05-12T21:20:51.818091+00:00 Ubunto splunk[855]: Waiting for web server at http://127.0.0.1:8000 to be available................... Done
+2025-05-12T21:20:51.819079+00:00 Ubunto splunk[855]: If you get stuck, we're here to help.
+2025-05-12T21:20:51.819198+00:00 Ubunto splunk[855]: Look for answers here: http://docs.splunk.com
+2025-05-12T21:20:51.819241+00:00 Ubunto splunk[855]: The Splunk web interface is at http://Ubunto:8000
+2025-05-12T21:20:51.820533+00:00 Ubunto systemd[1]: Started splunk.service - LSB: Start splunk.
+2025-05-12T21:20:51.828310+00:00 Ubunto systemd[1]: Reached target multi-user.target - Multi-User System.
+2025-05-12T21:20:51.828627+00:00 Ubunto systemd[1]: Reached target graphical.target - Graphical Interface.
+2025-05-12T21:20:51.845885+00:00 Ubunto systemd[1]: Starting e2scrub_all.service - Online ext4 Metadata Check for All Filesystems...
+2025-05-12T21:20:51.853214+00:00 Ubunto systemd[1]: Starting systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP...
+2025-05-12T21:20:51.858579+00:00 Ubunto systemd[1]: e2scrub_all.service: Deactivated successfully.
+2025-05-12T21:20:51.861306+00:00 Ubunto systemd[1]: Finished e2scrub_all.service - Online ext4 Metadata Check for All Filesystems.
+2025-05-12T21:20:51.878701+00:00 Ubunto systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+2025-05-12T21:20:51.879322+00:00 Ubunto systemd[1]: Finished systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP.
+2025-05-12T21:20:51.881297+00:00 Ubunto systemd[1]: Startup finished in 5.155s (kernel) + 37.836s (userspace) = 42.992s.
+2025-05-12T21:20:56.588387+00:00 Ubunto systemd[1]: systemd-timedated.service: Deactivated successfully.
+2025-05-12T21:20:57.775598+00:00 Ubunto systemd[1]: systemd-localed.service: Deactivated successfully.
+2025-05-12T21:20:57.867713+00:00 Ubunto systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2025-05-12T21:20:58.918475+00:00 Ubunto systemd[1]: fprintd.service: Deactivated successfully.
+2025-05-12T21:21:17.357945+00:00 Ubunto systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2025-05-12T21:21:17.369149+00:00 Ubunto systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2025-05-12T21:21:17.390420+00:00 Ubunto systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2025-05-12T21:21:17.402691+00:00 Ubunto systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2025-05-12T21:21:17.667274+00:00 Ubunto systemd[2951]: Queued start job for default target default.target.
+2025-05-12T21:21:17.667923+00:00 Ubunto kernel: systemd-journald[259]: File /var/log/journal/1b5738f30b264834a673a8935f313253/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+2025-05-12T21:21:17.700771+00:00 Ubunto systemd[2951]: Created slice app.slice - User Application Slice.
+2025-05-12T21:21:17.701499+00:00 Ubunto systemd[2951]: Created slice session.slice - User Core Session Slice.
+2025-05-12T21:21:17.703084+00:00 Ubunto systemd[2951]: Started ubuntu-report.path - Pending report trigger for Ubuntu Report.
+2025-05-12T21:21:17.703257+00:00 Ubunto systemd[2951]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+2025-05-12T21:21:17.703663+00:00 Ubunto systemd[2951]: Started snap.firmware-updater.firmware-notifier.timer - Timer firmware-notifier for snap application firmware-updater.firmware-notifier.
+2025-05-12T21:21:17.703816+00:00 Ubunto systemd[2951]: Reached target paths.target - Paths.
+2025-05-12T21:21:17.704079+00:00 Ubunto systemd[2951]: Reached target timers.target - Timers.
+2025-05-12T21:21:17.705544+00:00 Ubunto systemd[2951]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2025-05-12T21:21:17.705937+00:00 Ubunto systemd[2951]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2025-05-12T21:21:17.706162+00:00 Ubunto systemd[2951]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-05-12T21:21:17.706382+00:00 Ubunto systemd[2951]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+2025-05-12T21:21:17.706513+00:00 Ubunto systemd[2951]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2025-05-12T21:21:17.706812+00:00 Ubunto systemd[2951]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2025-05-12T21:21:17.708659+00:00 Ubunto systemd[2951]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-05-12T21:21:17.708789+00:00 Ubunto systemd[2951]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2025-05-12T21:21:17.709083+00:00 Ubunto systemd[2951]: Listening on keyboxd.socket - GnuPG public key management service.
+2025-05-12T21:21:17.709450+00:00 Ubunto systemd[2951]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+2025-05-12T21:21:17.709959+00:00 Ubunto systemd[2951]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+2025-05-12T21:21:17.710087+00:00 Ubunto systemd[2951]: Listening on pk-debconf-helper.socket - debconf communication socket.
+2025-05-12T21:21:17.710460+00:00 Ubunto systemd[2951]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+2025-05-12T21:21:17.710586+00:00 Ubunto systemd[2951]: Listening on speech-dispatcher.socket - Speech Dispatcher Socket.
+2025-05-12T21:21:17.720212+00:00 Ubunto systemd[2951]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2025-05-12T21:21:17.741372+00:00 Ubunto systemd[2951]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-05-12T21:21:17.741438+00:00 Ubunto systemd[2951]: Reached target sockets.target - Sockets.
+2025-05-12T21:21:17.741470+00:00 Ubunto systemd[2951]: Reached target basic.target - Basic System.
+2025-05-12T21:21:17.741508+00:00 Ubunto systemd[2951]: gnome-initial-setup-copy-worker.service - GNOME Initial Setup Copy Worker was skipped because of an unmet condition check (ConditionPathExists=!/home/vboxuser/.config/gnome-initial-setup-done).
+2025-05-12T21:21:17.742253+00:00 Ubunto systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2025-05-12T21:21:17.743520+00:00 Ubunto systemd[2951]: Started pipewire.service - PipeWire Multimedia Service.
+2025-05-12T21:21:17.751111+00:00 Ubunto systemd[1]: Started session-2.scope - Session 2 of User vboxuser.
+2025-05-12T21:21:17.755037+00:00 Ubunto systemd[2951]: Started filter-chain.service - PipeWire filter chain daemon.
+2025-05-12T21:21:17.758650+00:00 Ubunto systemd[2951]: Started snap.snapd-desktop-integration.snapd-desktop-integration.service - Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+2025-05-12T21:21:17.763463+00:00 Ubunto systemd[2951]: Started wireplumber.service - Multimedia Service Session Manager.
+2025-05-12T21:21:17.769196+00:00 Ubunto systemd[2951]: Started pipewire-pulse.service - PipeWire PulseAudio.
+2025-05-12T21:21:17.769428+00:00 Ubunto systemd[2951]: Reached target default.target - Main User Target.
+2025-05-12T21:21:17.769887+00:00 Ubunto systemd[2951]: Startup finished in 342ms.
+2025-05-12T21:21:17.781687+00:00 Ubunto systemd[2951]: Starting dbus.service - D-Bus User Message Bus...
+2025-05-12T21:21:17.787342+00:00 Ubunto systemd[2951]: Started gnome-keyring-daemon.service - GNOME Keyring daemon.
+2025-05-12T21:21:17.795338+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] AppArmor D-Bus mediation is enabled
+2025-05-12T21:21:17.795728+00:00 Ubunto systemd[2951]: Started dbus.service - D-Bus User Message Bus.
+2025-05-12T21:21:17.803768+00:00 Ubunto rtkit-daemon[1440]: Supervising 8 threads of 5 processes of 1 users.
+2025-05-12T21:21:17.810078+00:00 Ubunto rtkit-daemon[1440]: message repeated 6 times: [ Supervising 8 threads of 5 processes of 1 users.]
+2025-05-12T21:21:17.817602+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 2965 of process 2965 owned by '1000' high priority at nice level -11.
+2025-05-12T21:21:17.817726+00:00 Ubunto rtkit-daemon[1440]: Supervising 9 threads of 6 processes of 2 users.
+2025-05-12T21:21:17.819269+00:00 Ubunto rtkit-daemon[1440]: message repeated 3 times: [ Supervising 9 threads of 6 processes of 2 users.]
+2025-05-12T21:21:17.824976+00:00 Ubunto pipewire[2965]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+2025-05-12T21:21:17.827270+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 2989 of process 2966 owned by '1000' RT at priority 20.
+2025-05-12T21:21:17.827400+00:00 Ubunto rtkit-daemon[1440]: Supervising 10 threads of 7 processes of 2 users.
+2025-05-12T21:21:17.828969+00:00 Ubunto rtkit-daemon[1440]: message repeated 2 times: [ Supervising 10 threads of 7 processes of 2 users.]
+2025-05-12T21:21:17.833880+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 2998 of process 2965 owned by '1000' RT at priority 20.
+2025-05-12T21:21:17.834481+00:00 Ubunto rtkit-daemon[1440]: Supervising 11 threads of 7 processes of 2 users.
+2025-05-12T21:21:17.839843+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 2971 of process 2971 owned by '1000' high priority at nice level -11.
+2025-05-12T21:21:17.839944+00:00 Ubunto rtkit-daemon[1440]: Supervising 12 threads of 8 processes of 2 users.
+2025-05-12T21:21:17.842645+00:00 Ubunto gnome-keyring-daemon[2978]: GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+2025-05-12T21:21:17.846361+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 2988 of process 2971 owned by '1000' RT at priority 20.
+2025-05-12T21:21:17.847421+00:00 Ubunto rtkit-daemon[1440]: Supervising 13 threads of 8 processes of 2 users.
+2025-05-12T21:21:17.854593+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 2972 of process 2972 owned by '1000' high priority at nice level -11.
+2025-05-12T21:21:17.855554+00:00 Ubunto wireplumber[2971]: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+2025-05-12T21:21:17.855890+00:00 Ubunto wireplumber[2971]: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+2025-05-12T21:21:17.856816+00:00 Ubunto rtkit-daemon[1440]: Supervising 14 threads of 9 processes of 2 users.
+2025-05-12T21:21:17.862219+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 2997 of process 2972 owned by '1000' RT at priority 20.
+2025-05-12T21:21:17.862446+00:00 Ubunto rtkit-daemon[1440]: Supervising 15 threads of 9 processes of 2 users.
+2025-05-12T21:21:17.864716+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.10' (uid=1000 pid=2968 comm="/usr/bin/snap run snapd-desktop-integration" label="unconfined")
+2025-05-12T21:21:17.872129+00:00 Ubunto systemd[2951]: Starting xdg-document-portal.service - flatpak document portal service...
+2025-05-12T21:21:17.884292+00:00 Ubunto gdm3: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+2025-05-12T21:21:17.893538+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.11' (uid=1000 pid=3022 comm="/usr/libexec/xdg-document-portal" label="unconfined")
+2025-05-12T21:21:17.902959+00:00 Ubunto gsd-media-keys[1702]: Unable to get default source
+2025-05-12T21:21:17.903137+00:00 Ubunto gsd-media-keys[1702]: Unable to get default sink
+2025-05-12T21:21:17.907055+00:00 Ubunto kernel: rfkill: input handler enabled
+2025-05-12T21:21:17.908569+00:00 Ubunto systemd[2951]: Starting xdg-permission-store.service - sandboxed app permission store...
+2025-05-12T21:21:17.956248+00:00 Ubunto wireplumber[2971]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:21:17.957298+00:00 Ubunto wireplumber[2971]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:21:17.957438+00:00 Ubunto wireplumber[2971]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:21:17.957531+00:00 Ubunto wireplumber[2971]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:21:17.957635+00:00 Ubunto wireplumber[2971]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:21:17.957819+00:00 Ubunto wireplumber[2971]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:21:17.958030+00:00 Ubunto wireplumber[2971]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:21:17.958139+00:00 Ubunto wireplumber[2971]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:21:17.958258+00:00 Ubunto wireplumber[2971]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:21:17.958351+00:00 Ubunto wireplumber[2971]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2025-05-12T21:21:17.962895+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+2025-05-12T21:21:17.963117+00:00 Ubunto systemd[2951]: Started xdg-permission-store.service - sandboxed app permission store.
+2025-05-12T21:21:17.967391+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.freedesktop.portal.Documents'
+2025-05-12T21:21:17.967503+00:00 Ubunto systemd[2951]: Started xdg-document-portal.service - flatpak document portal service.
+2025-05-12T21:21:17.985143+00:00 Ubunto xdg-document-portal[3022]: Ignoring invalid max threads value 4294967295 > max (100000).
+2025-05-12T21:21:17.991218+00:00 Ubunto wireplumber[2971]: BlueZ system service is not available
+2025-05-12T21:21:18.007321+00:00 Ubunto wireplumber[2971]: <WpNode:0x58a26c145f60> ignoring set_param on already destroyed objects
+2025-05-12T21:21:18.008789+00:00 Ubunto wireplumber[2971]: <WpNode:0x58a26c059ee0> ignoring set_param on already destroyed objects
+2025-05-12T21:21:18.012128+00:00 Ubunto kernel: audit: type=1400 audit(1747084878.009:161): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/24505/usr/lib/snapd/snap-confine" pid=2968 comm="snap-confine" capability=12  capname="net_admin"
+2025-05-12T21:21:18.013983+00:00 Ubunto kernel: audit: type=1400 audit(1747084878.009:162): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/24505/usr/lib/snapd/snap-confine" pid=2968 comm="snap-confine" capability=38  capname="perfmon"
+2025-05-12T21:21:18.028127+00:00 Ubunto kernel: audit: type=1400 audit(1747084878.025:163): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.snapd-desktop-integration" name="/proc/3086/maps" pid=3086 comm="5" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-05-12T21:21:18.217591+00:00 Ubunto systemd[2951]: Created slice app-gnome\x2dsession\x2dmanager.slice - Slice /app/gnome-session-manager.
+2025-05-12T21:21:18.218614+00:00 Ubunto systemd[2951]: Created slice background.slice - User Background Tasks Slice.
+2025-05-12T21:21:18.218740+00:00 Ubunto systemd[2951]: Started update-notifier-crash.path - Path trigger for Apport crash notifications.
+2025-05-12T21:21:18.219944+00:00 Ubunto systemd[2951]: Started update-notifier-release.path - Path trigger for new release of Ubuntu notifications.
+2025-05-12T21:21:18.220175+00:00 Ubunto systemd[2951]: Reached target gnome-session-wayland.target - GNOME Wayland Session.
+2025-05-12T21:21:18.220476+00:00 Ubunto systemd[2951]: Reached target org.gnome.Shell.target - GNOME Shell.
+2025-05-12T21:21:18.248060+00:00 Ubunto systemd[2951]: Started gcr-ssh-agent.service - GCR ssh-agent wrapper.
+2025-05-12T21:21:18.249271+00:00 Ubunto systemd[2951]: Starting gnome-session-monitor.service - Monitor Session leader for GNOME Session...
+2025-05-12T21:21:18.252633+00:00 Ubunto systemd[2951]: Starting session-migration.service - Session Migration...
+2025-05-12T21:21:18.256475+00:00 Ubunto systemd[2951]: Started ssh-agent.service - OpenSSH Agent.
+2025-05-12T21:21:18.262691+00:00 Ubunto systemd[2951]: Starting xdg-desktop-portal-rewrite-launchers.service - Rewrite dynamic launcher portal entries...
+2025-05-12T21:21:18.271977+00:00 Ubunto systemd[2951]: Started gnome-session-monitor.service - Monitor Session leader for GNOME Session.
+2025-05-12T21:21:18.273586+00:00 Ubunto systemd[2951]: Finished session-migration.service - Session Migration.
+2025-05-12T21:21:18.277704+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.18' (uid=1000 pid=3125 comm="/usr/libexec/xdg-desktop-portal-rewrite-launchers" label="unconfined")
+2025-05-12T21:21:18.281222+00:00 Ubunto systemd[2951]: Starting gvfs-daemon.service - Virtual filesystem service...
+2025-05-12T21:21:18.318131+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gtk.vfs.Daemon'
+2025-05-12T21:21:18.318667+00:00 Ubunto systemd[2951]: Started gvfs-daemon.service - Virtual filesystem service.
+2025-05-12T21:21:18.326293+00:00 Ubunto systemd[2951]: Finished xdg-desktop-portal-rewrite-launchers.service - Rewrite dynamic launcher portal entries.
+2025-05-12T21:21:18.326466+00:00 Ubunto systemd[2951]: Reached target graphical-session-pre.target - Session services which should run early before the graphical session is brought up.
+2025-05-12T21:21:18.326536+00:00 Ubunto systemd[2951]: Reached target gnome-session-pre.target - Tasks to be run before GNOME Session starts.
+2025-05-12T21:21:18.332184+00:00 Ubunto systemd[2951]: Starting gnome-session-manager@ubuntu.service - GNOME Session Manager (session: ubuntu)...
+2025-05-12T21:21:18.462298+00:00 Ubunto gnome-keyring-d[2978]: The PKCS#11 component was already initialized
+2025-05-12T21:21:18.462632+00:00 Ubunto gnome-keyring-pkcs11.desktop[3166]: discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+2025-05-12T21:21:18.467526+00:00 Ubunto gnome-session[3146]: gnome-session-binary[3146]: GnomeDesktop-WARNING: Could not create transient scope for PID 3161: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+2025-05-12T21:21:18.467694+00:00 Ubunto gnome-session-binary[3146]: GnomeDesktop-WARNING: Could not create transient scope for PID 3161: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+2025-05-12T21:21:18.473824+00:00 Ubunto gnome-keyring-ssh.desktop[3173]: discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+2025-05-12T21:21:18.473854+00:00 Ubunto gnome-keyring-ssh.desktop[3173]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+2025-05-12T21:21:18.474826+00:00 Ubunto gnome-keyring-d[2978]: The Secret Service was already initialized
+2025-05-12T21:21:18.475476+00:00 Ubunto gnome-keyring-secrets.desktop[3174]: discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+2025-05-12T21:21:18.475610+00:00 Ubunto gnome-keyring-secrets.desktop[3174]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+2025-05-12T21:21:18.480522+00:00 Ubunto systemd[2951]: app-gnome-gnome\x2dkeyring\x2dsecrets-3169.scope: Couldn't move process 3169 to requested cgroup '/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-gnome\x2dkeyring\x2dsecrets-3169.scope': No such process
+2025-05-12T21:21:18.480758+00:00 Ubunto systemd[2951]: app-gnome-gnome\x2dkeyring\x2dsecrets-3169.scope: Failed to add PIDs to scope's control group: No such process
+2025-05-12T21:21:18.481112+00:00 Ubunto systemd[2951]: app-gnome-gnome\x2dkeyring\x2dsecrets-3169.scope: Failed with result 'resources'.
+2025-05-12T21:21:18.482109+00:00 Ubunto systemd[2951]: Failed to start app-gnome-gnome\x2dkeyring\x2dsecrets-3169.scope - Application launched by gnome-session-binary.
+2025-05-12T21:21:18.487354+00:00 Ubunto systemd[2951]: app-gnome-gnome\x2dkeyring\x2dssh-3165.scope: PID 3165 vanished before we could move it to target cgroup '/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-gnome\x2dkeyring\x2dssh-3165.scope', skipping: No such process
+2025-05-12T21:21:18.487652+00:00 Ubunto systemd[2951]: app-gnome-gnome\x2dkeyring\x2dssh-3165.scope: No PIDs left to attach to the scope's control group, refusing.
+2025-05-12T21:21:18.487847+00:00 Ubunto systemd[2951]: app-gnome-gnome\x2dkeyring\x2dssh-3165.scope: Failed with result 'resources'.
+2025-05-12T21:21:18.487909+00:00 Ubunto systemd[2951]: Failed to start app-gnome-gnome\x2dkeyring\x2dssh-3165.scope - Application launched by gnome-session-binary.
+2025-05-12T21:21:18.488763+00:00 Ubunto systemd[2951]: Started gnome-session-manager@ubuntu.service - GNOME Session Manager (session: ubuntu).
+2025-05-12T21:21:18.489553+00:00 Ubunto systemd[2951]: Reached target gnome-session-manager.target - GNOME Session Manager is ready.
+2025-05-12T21:21:18.497711+00:00 Ubunto systemd[2951]: Starting org.gnome.Shell@wayland.service - GNOME Shell on Wayland...
+2025-05-12T21:21:18.497922+00:00 Ubunto systemd[2951]: org.gnome.Shell@x11.service - GNOME Shell on X11 was skipped because of an unmet condition check (ConditionEnvironment=XDG_SESSION_TYPE=x11).
+2025-05-12T21:21:18.502993+00:00 Ubunto systemd[2951]: Started app-gnome-at\x2dspi\x2ddbus\x2dbus-3176.scope - Application launched by gnome-session-binary.
+2025-05-12T21:21:18.504231+00:00 Ubunto systemd[2951]: app-gnome-xdg\x2duser\x2ddirs-3179.scope: PID 3179 vanished before we could move it to target cgroup '/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-xdg\x2duser\x2ddirs-3179.scope', skipping: No such process
+2025-05-12T21:21:18.504426+00:00 Ubunto systemd[2951]: app-gnome-xdg\x2duser\x2ddirs-3179.scope: No PIDs left to attach to the scope's control group, refusing.
+2025-05-12T21:21:18.504613+00:00 Ubunto systemd[2951]: app-gnome-xdg\x2duser\x2ddirs-3179.scope: Failed with result 'resources'.
+2025-05-12T21:21:18.505161+00:00 Ubunto systemd[2951]: Failed to start app-gnome-xdg\x2duser\x2ddirs-3179.scope - Application launched by gnome-session-binary.
+2025-05-12T21:21:18.632100+00:00 Ubunto gnome-shell[3185]: Running GNOME Shell (using mutter 46.2) as a Wayland display server
+2025-05-12T21:21:18.667411+00:00 Ubunto rtkit-daemon[1440]: Supervising 15 threads of 9 processes of 2 users.
+2025-05-12T21:21:18.668900+00:00 Ubunto rtkit-daemon[1440]: Supervising 15 threads of 9 processes of 2 users.
+2025-05-12T21:21:18.680521+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 3209 of process 3185 owned by '1000' RT at priority 20.
+2025-05-12T21:21:18.680649+00:00 Ubunto rtkit-daemon[1440]: Supervising 16 threads of 10 processes of 2 users.
+2025-05-12T21:21:18.680979+00:00 Ubunto gnome-shell[3185]: Made thread 'KMS thread' realtime scheduled
+2025-05-12T21:21:18.686099+00:00 Ubunto gnome-shell[3185]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:21:18.754802+00:00 Ubunto gnome-shell[3185]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:21:18.754870+00:00 Ubunto gnome-shell[3185]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:21:18.763183+00:00 Ubunto gnome-shell[3185]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:21:18.763296+00:00 Ubunto gnome-shell[3185]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:21:18.776216+00:00 Ubunto gnome-shell[3185]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:21:18.776405+00:00 Ubunto gnome-shell[3185]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:21:18.779076+00:00 Ubunto gnome-shell[3185]: Added device '/dev/dri/card0' (vmwgfx) using atomic mode setting.
+2025-05-12T21:21:18.782606+00:00 Ubunto gnome-shell[3185]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+2025-05-12T21:21:18.782699+00:00 Ubunto gnome-shell[3185]: Created gbm renderer for '/dev/dri/card0'
+2025-05-12T21:21:18.782772+00:00 Ubunto gnome-shell[3185]: Boot VGA GPU /dev/dri/card0 selected as primary
+2025-05-12T21:21:19.095193+00:00 Ubunto gnome-shell[3185]: Using public X11 display :0, (using :1 for managed services)
+2025-05-12T21:21:19.095336+00:00 Ubunto gnome-shell[3185]: Using Wayland display name 'wayland-0'
+2025-05-12T21:21:19.187249+00:00 Ubunto at-spi-dbus-bus.desktop[3190]: dbus-daemon[3190]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=3185 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:21:19.204082+00:00 Ubunto at-spi-dbus-bus.desktop[3190]: dbus-daemon[3190]: Successfully activated service 'org.a11y.atspi.Registry'
+2025-05-12T21:21:19.206302+00:00 Ubunto at-spi-dbus-bus.desktop[3262]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+2025-05-12T21:21:19.864018+00:00 Ubunto gnome-shell[3185]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+2025-05-12T21:21:19.864417+00:00 Ubunto gnome-shell[3185]: Will monitor session 2
+2025-05-12T21:21:19.921407+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating service name='org.gnome.Shell.Screencast' requested by ':1.33' (uid=1000 pid=3185 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:21:19.974761+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.33' (uid=1000 pid=3185 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:21:20.089440+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.38' (uid=1000 pid=3291 comm="/usr/libexec/gnome-shell-calendar-server" label="unconfined")
+2025-05-12T21:21:20.100144+00:00 Ubunto systemd[2951]: Starting evolution-source-registry.service - Evolution source registry...
+2025-05-12T21:21:20.225163+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating service name='org.gnome.Shell.Notifications' requested by ':1.33' (uid=1000 pid=3185 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:21:20.241070+00:00 Ubunto systemd[2951]: Started org.gnome.Shell@wayland.service - GNOME Shell on Wayland.
+2025-05-12T21:21:20.242661+00:00 Ubunto systemd[2951]: Reached target gnome-session-initialized.target - GNOME Session is initialized.
+2025-05-12T21:21:20.243110+00:00 Ubunto systemd[2951]: gnome-session-x11-services.target - GNOME session X11 services is inactive.
+2025-05-12T21:21:20.243367+00:00 Ubunto systemd[2951]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+2025-05-12T21:21:20.244252+00:00 Ubunto systemd[2951]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+2025-05-12T21:21:20.244455+00:00 Ubunto systemd[2951]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+2025-05-12T21:21:20.247048+00:00 Ubunto systemd[2951]: Reached target gnome-session@ubuntu.target - GNOME Session (session: ubuntu).
+2025-05-12T21:21:20.247865+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.XSettings.target - GNOME XSettings target.
+2025-05-12T21:21:20.262667+00:00 Ubunto systemd[2951]: Starting gnome-session-signal-init.service - Signal initialization done to GNOME Session Manager...
+2025-05-12T21:21:20.287301+00:00 Ubunto systemd[2951]: Starting org.freedesktop.IBus.session.GNOME.service - IBus Daemon for GNOME...
+2025-05-12T21:21:20.307016+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.A11ySettings.service - GNOME accessibility service...
+2025-05-12T21:21:20.314978+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.Color.service - GNOME color management service...
+2025-05-12T21:21:20.335429+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.Datetime.service - GNOME date & time service...
+2025-05-12T21:21:20.343529+00:00 Ubunto gnome-shell[3185]: Gio.UnixInputStream has been moved to a separate platform-specific library. Please update your code to use GioUnix.InputStream instead.#0120 inhibit() ["resource:///org/gnome/shell/misc/loginManager.js":209:8]#0121 InterpretGeneratorResume() ["self-hosted":1461:33]#0122 AsyncFunctionNext() ["self-hosted":852:26]#0123 anonymous() ["resource:///org/gnome/shell/ui/init.js":21:19]
+2025-05-12T21:21:20.355450+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.Housekeeping.service - GNOME maintenance of expirable data service...
+2025-05-12T21:21:20.358206+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.Keyboard.service - GNOME keyboard configuration service...
+2025-05-12T21:21:20.367459+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.MediaKeys.service - GNOME keyboard shortcuts service...
+2025-05-12T21:21:20.373232+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.Power.service - GNOME power management service...
+2025-05-12T21:21:20.374229+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.PrintNotifications.service - GNOME printer notifications service...
+2025-05-12T21:21:20.384724+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.Rfkill.service - GNOME RFKill support service...
+2025-05-12T21:21:20.395432+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.ScreensaverProxy.service - GNOME FreeDesktop screensaver service...
+2025-05-12T21:21:20.406402+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.Sharing.service - GNOME file sharing service...
+2025-05-12T21:21:20.410769+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.Smartcard.service - GNOME smartcard service...
+2025-05-12T21:21:20.439996+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.Sound.service - GNOME sound sample caching service...
+2025-05-12T21:21:20.444424+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.Wacom.service - GNOME Wacom tablet support service...
+2025-05-12T21:21:20.470576+00:00 Ubunto systemd[2951]: Finished gnome-session-signal-init.service - Signal initialization done to GNOME Session Manager.
+2025-05-12T21:21:20.475713+00:00 Ubunto spice-vdagent[3335]: vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0 does not exist, exiting
+2025-05-12T21:21:20.485721+00:00 Ubunto systemd[2951]: Started app-gnome-spice\x2dvdagent-3335.scope - Application launched by gnome-session-binary.
+2025-05-12T21:21:20.521800+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.Datetime.service - GNOME date & time service.
+2025-05-12T21:21:20.522065+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.Datetime.target - GNOME date & time target.
+2025-05-12T21:21:20.620387+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating service name='org.freedesktop.portal.IBus' requested by ':1.43' (uid=1000 pid=3321 comm="/usr/bin/ibus-daemon --panel disable" label="unconfined")
+2025-05-12T21:21:20.632176+00:00 Ubunto systemd[2951]: Started org.freedesktop.IBus.session.GNOME.service - IBus Daemon for GNOME.
+2025-05-12T21:21:20.632634+00:00 Ubunto gnome-session-binary[3146]: Entering running state
+2025-05-12T21:21:20.707256+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.freedesktop.portal.IBus'
+2025-05-12T21:21:20.745422+00:00 Ubunto at-spi2-registr[3262]: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+2025-05-12T21:21:20.745930+00:00 Ubunto at-spi2-registr[3262]: Unable to register client with session manager
+2025-05-12T21:21:20.760523+00:00 Ubunto dbus-daemon[778]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.83' (uid=1000 pid=3346 comm="/usr/libexec/gsd-rfkill" label="unconfined")
+2025-05-12T21:21:20.782972+00:00 Ubunto systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2025-05-12T21:21:20.806995+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gnome.Shell.Notifications'
+2025-05-12T21:21:20.873979+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.33' (uid=1000 pid=3185 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:21:20.875295+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.A11ySettings.service - GNOME accessibility service.
+2025-05-12T21:21:20.877472+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.Sharing.service - GNOME file sharing service.
+2025-05-12T21:21:20.883963+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.ScreensaverProxy.service - GNOME FreeDesktop screensaver service.
+2025-05-12T21:21:20.884373+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.Smartcard.service - GNOME smartcard service.
+2025-05-12T21:21:20.884465+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.Housekeeping.service - GNOME maintenance of expirable data service.
+2025-05-12T21:21:20.891708+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.PrintNotifications.service - GNOME printer notifications service.
+2025-05-12T21:21:20.906043+00:00 Ubunto systemd[2951]: Started app-gnome-org.gnome.Evolution\x2dalarm\x2dnotify-3376.scope - Application launched by gnome-session-binary.
+2025-05-12T21:21:20.913003+00:00 Ubunto systemd[2951]: Started app-gnome-org.gnome.SettingsDaemon.DiskUtilityNotify-3426.scope - Application launched by gnome-session-binary.
+2025-05-12T21:21:20.913135+00:00 Ubunto systemd[2951]: Started app-gnome-snap\x2duserd\x2dautostart-3388.scope - Application launched by gnome-session-binary.
+2025-05-12T21:21:20.920967+00:00 Ubunto systemd[2951]: Started app-gnome-ubuntu\x2dreport\x2don\x2dupgrade-3369.scope - Application launched by gnome-session-binary.
+2025-05-12T21:21:20.921463+00:00 Ubunto systemd[2951]: Started app-gnome-vboxclient-3417.scope - Application launched by gnome-session-binary.
+2025-05-12T21:21:20.921540+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.A11ySettings.target - GNOME accessibility target.
+2025-05-12T21:21:20.921713+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.Housekeeping.target - GNOME maintenance of expirable data target.
+2025-05-12T21:21:20.921767+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.PrintNotifications.target - GNOME printer notifications target.
+2025-05-12T21:21:20.921817+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.ScreensaverProxy.target - GNOME FreeDesktop screensaver target.
+2025-05-12T21:21:20.921865+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.Sharing.target - GNOME file sharing target.
+2025-05-12T21:21:20.921922+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.Smartcard.target - GNOME smartcard target.
+2025-05-12T21:21:20.934302+00:00 Ubunto systemd[2951]: Starting gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor...
+2025-05-12T21:21:20.944776+00:00 Ubunto gnome-session[3146]: gnome-session-binary[3146]: GnomeDesktop-WARNING: Could not create transient scope for PID 3395: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+2025-05-12T21:21:20.945082+00:00 Ubunto gnome-session-binary[3146]: GnomeDesktop-WARNING: Could not create transient scope for PID 3395: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+2025-05-12T21:21:20.946885+00:00 Ubunto gnome-session[3146]: gnome-session-binary[3146]: GnomeDesktop-WARNING: Could not create transient scope for PID 3454: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+2025-05-12T21:21:20.947042+00:00 Ubunto gnome-session-binary[3146]: GnomeDesktop-WARNING: Could not create transient scope for PID 3454: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+2025-05-12T21:21:20.957181+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.Sound.service - GNOME sound sample caching service.
+2025-05-12T21:21:20.958247+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.Sound.target - GNOME sound sample caching target.
+2025-05-12T21:21:20.979818+00:00 Ubunto dbus-daemon[778]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2025-05-12T21:21:20.980502+00:00 Ubunto systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2025-05-12T21:21:20.984634+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating service name='org.gnome.OnlineAccounts' requested by ':1.39' (uid=1000 pid=3298 comm="/usr/libexec/evolution-source-registry" label="unconfined")
+2025-05-12T21:21:20.995952+00:00 Ubunto kernel: rfkill: input handler disabled
+2025-05-12T21:21:20.996600+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.Rfkill.service - GNOME RFKill support service.
+2025-05-12T21:21:20.997108+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.Rfkill.target - GNOME RFKill support target.
+2025-05-12T21:21:21.012370+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+2025-05-12T21:21:21.012841+00:00 Ubunto systemd[2951]: Started gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor.
+2025-05-12T21:21:21.021267+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.33' (uid=1000 pid=3185 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:21:21.035413+00:00 Ubunto systemd[2951]: Starting gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor...
+2025-05-12T21:21:21.048659+00:00 Ubunto goa-daemon[3564]: goa-daemon version 3.50.4 starting
+2025-05-12T21:21:21.056642+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating service name='org.gnome.Identity' requested by ':1.65' (uid=1000 pid=3564 comm="/usr/libexec/goa-daemon" label="unconfined")
+2025-05-12T21:21:21.060511+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+2025-05-12T21:21:21.060792+00:00 Ubunto systemd[2951]: Started gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor.
+2025-05-12T21:21:21.068738+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.33' (uid=1000 pid=3185 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:21:21.071690+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gnome.OnlineAccounts'
+2025-05-12T21:21:21.077075+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gnome.Identity'
+2025-05-12T21:21:21.079251+00:00 Ubunto systemd[2951]: Starting gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor...
+2025-05-12T21:21:21.081593+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+2025-05-12T21:21:21.082022+00:00 Ubunto systemd[2951]: Started evolution-source-registry.service - Evolution source registry.
+2025-05-12T21:21:21.101189+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+2025-05-12T21:21:21.102435+00:00 Ubunto systemd[2951]: Started gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor.
+2025-05-12T21:21:21.102559+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.38' (uid=1000 pid=3291 comm="/usr/libexec/gnome-shell-calendar-server" label="unconfined")
+2025-05-12T21:21:21.107961+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.33' (uid=1000 pid=3185 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:21:21.121821+00:00 Ubunto systemd[2951]: Starting evolution-calendar-factory.service - Evolution calendar service...
+2025-05-12T21:21:21.127091+00:00 Ubunto systemd[2951]: Starting gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor...
+2025-05-12T21:21:21.132837+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gnome.Shell.CalendarServer'
+2025-05-12T21:21:21.153464+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+2025-05-12T21:21:21.153729+00:00 Ubunto systemd[2951]: Started gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor.
+2025-05-12T21:21:21.159319+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.33' (uid=1000 pid=3185 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:21:21.181197+00:00 Ubunto systemd[2951]: Starting gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor...
+2025-05-12T21:21:21.193144+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+2025-05-12T21:21:21.193398+00:00 Ubunto systemd[2951]: Started gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor.
+2025-05-12T21:21:21.250072+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+2025-05-12T21:21:21.251094+00:00 Ubunto systemd[2951]: Started evolution-calendar-factory.service - Evolution calendar service.
+2025-05-12T21:21:21.270064+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.69' (uid=1000 pid=3597 comm="/usr/libexec/evolution-calendar-factory" label="unconfined")
+2025-05-12T21:21:21.280603+00:00 Ubunto systemd[2951]: Starting evolution-addressbook-factory.service - Evolution address book service...
+2025-05-12T21:21:21.290259+00:00 Ubunto gnome-shell[3611]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:21:21.290327+00:00 Ubunto gnome-shell[3611]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:21:21.298932+00:00 Ubunto gnome-shell[3611]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:21:21.299101+00:00 Ubunto gnome-shell[3611]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:21:21.303575+00:00 Ubunto gnome-shell[3185]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+2025-05-12T21:21:21.309022+00:00 Ubunto gnome-shell[3611]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:21:21.309107+00:00 Ubunto gnome-shell[3611]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:21:21.359453+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+2025-05-12T21:21:21.360273+00:00 Ubunto systemd[2951]: Started evolution-addressbook-factory.service - Evolution address book service.
+2025-05-12T21:21:21.373023+00:00 Ubunto kernel: /dev/sr0: Can't open blockdev
+2025-05-12T21:21:21.374406+00:00 Ubunto kernel: ISO 9660 Extensions: Microsoft Joliet Level 3
+2025-05-12T21:21:21.377147+00:00 Ubunto kernel: ISO 9660 Extensions: RRIP_1991A
+2025-05-12T21:21:21.383118+00:00 Ubunto udisksd[862]: Mounted /dev/sr0 at /media/vboxuser/VBox_GAs_7.1.6 on behalf of uid 1000
+2025-05-12T21:21:21.530657+00:00 Ubunto NetworkManager[980]: <info>  [1747084881.5299] agent-manager: agent[844d5e61bd7158f7,:1.79/org.gnome.Shell.NetworkAgent/1000]: agent registered
+2025-05-12T21:21:21.621067+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='ca.desrt.dconf' unit='dconf.service' requested by ':1.33' (uid=1000 pid=3185 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:21:21.632163+00:00 Ubunto systemd[2951]: Starting dconf.service - User preferences database...
+2025-05-12T21:21:21.645956+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'ca.desrt.dconf'
+2025-05-12T21:21:21.646042+00:00 Ubunto systemd[2951]: Started dconf.service - User preferences database.
+2025-05-12T21:21:21.894170+00:00 Ubunto gnome-shell[3185]: Failed to import DBusMenu, quicklists are not available: Error: Requiring Dbusmenu, version none: Typelib file for namespace 'Dbusmenu' (any version) not found
+2025-05-12T21:21:21.895033+00:00 Ubunto gnome-shell[3185]: message repeated 2 times: [ Failed to import DBusMenu, quicklists are not available: Error: Requiring Dbusmenu, version none: Typelib file for namespace 'Dbusmenu' (any version) not found]
+2025-05-12T21:21:21.917265+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating service name='org.freedesktop.FileManager1' requested by ':1.33' (uid=1000 pid=3185 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:21:21.919754+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.33' (uid=1000 pid=3185 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:21:21.931948+00:00 Ubunto systemd[2951]: Starting gvfs-metadata.service - Virtual filesystem metadata service...
+2025-05-12T21:21:21.949637+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gtk.vfs.Metadata'
+2025-05-12T21:21:21.950056+00:00 Ubunto systemd[2951]: Started gvfs-metadata.service - Virtual filesystem metadata service.
+2025-05-12T21:21:22.071556+00:00 Ubunto nautilus[3682]: Connecting to org.freedesktop.Tracker3.Miner.Files
+2025-05-12T21:21:22.074171+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.freedesktop.FileManager1'
+2025-05-12T21:21:22.089773+00:00 Ubunto gnome-shell[3611]: Failed to initialize glamor, falling back to sw
+2025-05-12T21:21:22.139195+00:00 Ubunto gnome-shell[3611]: VMware: No 3D enabled (0, Success).
+2025-05-12T21:21:22.147667+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2025-05-12T21:21:22.150811+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2025-05-12T21:21:22.152320+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2025-05-12T21:21:22.152749+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2025-05-12T21:21:22.153073+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2025-05-12T21:21:22.154397+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2025-05-12T21:21:22.154482+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2025-05-12T21:21:22.154587+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2025-05-12T21:21:22.154628+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2025-05-12T21:21:22.154694+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2025-05-12T21:21:22.154724+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2025-05-12T21:21:22.154761+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2025-05-12T21:21:22.154789+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2025-05-12T21:21:22.154815+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2025-05-12T21:21:22.159137+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2025-05-12T21:21:22.159602+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2025-05-12T21:21:22.160110+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2025-05-12T21:21:22.160368+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2025-05-12T21:21:22.252408+00:00 Ubunto gnome-shell[3709]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+2025-05-12T21:21:22.252626+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+2025-05-12T21:21:22.252754+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+2025-05-12T21:21:22.252947+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+2025-05-12T21:21:22.253098+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86NextElement
+2025-05-12T21:21:22.253212+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86PreviousElement
+2025-05-12T21:21:22.253441+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+2025-05-12T21:21:22.253577+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+2025-05-12T21:21:22.253691+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86Sos
+2025-05-12T21:21:22.253827+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86NavChart
+2025-05-12T21:21:22.253989+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86FishingChart
+2025-05-12T21:21:22.254103+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+2025-05-12T21:21:22.254216+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+2025-05-12T21:21:22.254392+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86RadarOverlay
+2025-05-12T21:21:22.254514+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+2025-05-12T21:21:22.254627+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+2025-05-12T21:21:22.254740+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86SidevuSonar
+2025-05-12T21:21:22.254914+00:00 Ubunto gnome-shell[3709]: > Warning:          Could not resolve keysym XF86NavInfo
+2025-05-12T21:21:22.256144+00:00 Ubunto gnome-shell[3709]: Errors from xkbcomp are not fatal to the X server
+2025-05-12T21:21:22.266507+00:00 Ubunto snapd-desktop-i[3277]: New theme: gtk=Yaru-dark icon=Yaru-dark cursor=Adwaita, sound=Yaru
+2025-05-12T21:21:22.272150+00:00 Ubunto snapd-desktop-i[3277]: All available theme snaps installed
+2025-05-12T21:21:22.518278+00:00 Ubunto gnome-shell[3185]: GFileInfo created without standard::icon
+2025-05-12T21:21:22.518430+00:00 Ubunto gnome-shell[3185]: file ../../../gio/gfileinfo.c: line 1765 (g_file_info_get_icon): should not be reached
+2025-05-12T21:21:22.522008+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gnome.Shell.Screencast'
+2025-05-12T21:21:22.532684+00:00 Ubunto gnome-shell[3185]: GNOME Shell started at Mon May 12 2025 21:21:20 GMT+0000 (Coordinated Universal Time)
+2025-05-12T21:21:22.534068+00:00 Ubunto gnome-shell[3185]: Registering session with GDM
+2025-05-12T21:21:22.541741+00:00 Ubunto gnome-shell[1510]: Connection to xwayland lost
+2025-05-12T21:21:22.543118+00:00 Ubunto gnome-shell[1510]: Xwayland terminated, exiting since it was mandatory
+2025-05-12T21:21:22.543375+00:00 Ubunto gnome-shell[1510]: (../src/core/meta-context.c:542):meta_context_terminate: runtime check failed: (g_main_loop_is_running (priv->main_loop))
+2025-05-12T21:21:22.543499+00:00 Ubunto gnome-shell[1510]: JS ERROR: Gio.IOErrorEnum: Xwayland exited unexpectedly#012@resource:///org/gnome/shell/ui/init.js:21:20
+2025-05-12T21:21:22.543596+00:00 Ubunto gnome-shell[1510]: Execution of main.js threw exception: Module resource:///org/gnome/shell/ui/init.js threw an exception
+2025-05-12T21:21:22.661414+00:00 Ubunto gdm3: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+2025-05-12T21:21:22.672803+00:00 Ubunto systemd[1]: session-c1.scope: Deactivated successfully.
+2025-05-12T21:21:22.674672+00:00 Ubunto systemd[1]: session-c1.scope: Consumed 10.458s CPU time.
+2025-05-12T21:21:22.694545+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.Color.service - GNOME color management service.
+2025-05-12T21:21:22.694650+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.Color.target - GNOME color management target.
+2025-05-12T21:21:22.706705+00:00 Ubunto dbus-daemon[778]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.98' (uid=1000 pid=3340 comm="/usr/libexec/gsd-keyboard" label="unconfined")
+2025-05-12T21:21:22.720683+00:00 Ubunto systemd[1]: Starting systemd-localed.service - Locale Service...
+2025-05-12T21:21:22.722899+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.Keyboard.service - GNOME keyboard configuration service.
+2025-05-12T21:21:22.722997+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.Keyboard.target - GNOME keyboard configuration target.
+2025-05-12T21:21:22.775668+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.Wacom.service - GNOME Wacom tablet support service.
+2025-05-12T21:21:22.775869+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.Wacom.target - GNOME Wacom tablet support target.
+2025-05-12T21:21:22.793662+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.Power.service - GNOME power management service.
+2025-05-12T21:21:22.793812+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.Power.target - GNOME power management target.
+2025-05-12T21:21:22.809483+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.MediaKeys.service - GNOME keyboard shortcuts service.
+2025-05-12T21:21:22.809573+00:00 Ubunto systemd[2951]: Reached target org.gnome.SettingsDaemon.MediaKeys.target - GNOME keyboard shortcuts target.
+2025-05-12T21:21:22.809618+00:00 Ubunto systemd[2951]: Reached target gnome-session.target - GNOME Session.
+2025-05-12T21:21:22.809659+00:00 Ubunto systemd[2951]: Reached target gnome-session-wayland@ubuntu.target - GNOME Wayland Session (session: ubuntu).
+2025-05-12T21:21:22.809765+00:00 Ubunto systemd[2951]: Reached target graphical-session.target - Current graphical user session.
+2025-05-12T21:21:22.809858+00:00 Ubunto systemd[2951]: gnome-initial-setup-first-login.service - GNOME Initial Setup was skipped because of an unmet condition check (ConditionPathExists=!/home/vboxuser/.config/gnome-initial-setup-done).
+2025-05-12T21:21:22.823118+00:00 Ubunto systemd[2951]: Starting tracker-miner-fs-3.service - Tracker file system data miner...
+2025-05-12T21:21:22.917941+00:00 Ubunto dbus-daemon[778]: [system] Successfully activated service 'org.freedesktop.locale1'
+2025-05-12T21:21:22.919148+00:00 Ubunto systemd[1]: Started systemd-localed.service - Locale Service.
+2025-05-12T21:21:23.243848+00:00 Ubunto systemd[2951]: Started tracker-miner-fs-3.service - Tracker file system data miner.
+2025-05-12T21:21:23.516822+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 3209 of process 3185 owned by '1000' high priority at nice level 0.
+2025-05-12T21:21:23.517132+00:00 Ubunto rtkit-daemon[1440]: Supervising 15 threads of 9 processes of 2 users.
+2025-05-12T21:21:23.521563+00:00 Ubunto rtkit-daemon[1440]: Supervising 14 threads of 8 processes of 2 users.
+2025-05-12T21:21:23.523374+00:00 Ubunto rtkit-daemon[1440]: Supervising 14 threads of 8 processes of 2 users.
+2025-05-12T21:21:23.530196+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 3209 of process 3185 owned by '1000' RT at priority 20.
+2025-05-12T21:21:23.530385+00:00 Ubunto rtkit-daemon[1440]: Supervising 15 threads of 9 processes of 2 users.
+2025-05-12T21:21:23.575253+00:00 Ubunto systemd[2951]: Reached target gnome-session-x11-services.target - GNOME session X11 services.
+2025-05-12T21:21:23.576153+00:00 Ubunto gnome-shell[3185]: Launching DING process
+2025-05-12T21:21:23.593408+00:00 Ubunto systemd[2951]: Starting org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service...
+2025-05-12T21:21:23.647464+00:00 Ubunto gsd-media-keys[3342]: Failed to grab accelerator for keybinding settings:playback-repeat
+2025-05-12T21:21:23.647580+00:00 Ubunto gsd-media-keys[3342]: Failed to grab accelerator for keybinding settings:hibernate
+2025-05-12T21:21:23.676818+00:00 Ubunto gnome-shell[3788]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+2025-05-12T21:21:23.679055+00:00 Ubunto gnome-shell[3788]: > Warning:          Unsupported maximum keycode 708, clipping.
+2025-05-12T21:21:23.679242+00:00 Ubunto gnome-shell[3788]: >                   X11 cannot support keycodes above 255.
+2025-05-12T21:21:23.682148+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+2025-05-12T21:21:23.682333+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+2025-05-12T21:21:23.682431+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+2025-05-12T21:21:23.682616+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86NextElement
+2025-05-12T21:21:23.682712+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86PreviousElement
+2025-05-12T21:21:23.682806+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+2025-05-12T21:21:23.682899+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+2025-05-12T21:21:23.683088+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86Sos
+2025-05-12T21:21:23.683191+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86NavChart
+2025-05-12T21:21:23.683285+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86FishingChart
+2025-05-12T21:21:23.683388+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+2025-05-12T21:21:23.683483+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+2025-05-12T21:21:23.683619+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86RadarOverlay
+2025-05-12T21:21:23.683714+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+2025-05-12T21:21:23.683810+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+2025-05-12T21:21:23.683903+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86SidevuSonar
+2025-05-12T21:21:23.683995+00:00 Ubunto gnome-shell[3788]: > Warning:          Could not resolve keysym XF86NavInfo
+2025-05-12T21:21:23.684797+00:00 Ubunto gnome-shell[3788]: Errors from xkbcomp are not fatal to the X server
+2025-05-12T21:21:23.695133+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating service name='org.gnome.ScreenSaver' requested by ':1.53' (uid=1000 pid=3344 comm="/usr/libexec/gsd-power" label="unconfined")
+2025-05-12T21:21:23.790167+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.78' (uid=1000 pid=3682 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+2025-05-12T21:21:23.802136+00:00 Ubunto systemd[2951]: Starting xdg-desktop-portal.service - Portal service...
+2025-05-12T21:21:23.833364+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gnome.ScreenSaver'
+2025-05-12T21:21:23.859827+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gnome' unit='xdg-desktop-portal-gnome.service' requested by ':1.89' (uid=1000 pid=3810 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+2025-05-12T21:21:23.869420+00:00 Ubunto systemd[2951]: Starting xdg-desktop-portal-gnome.service - Portal service (GNOME implementation)...
+2025-05-12T21:21:24.435932+00:00 Ubunto gnome-shell[3185]: DING: Detected async api for thumbnails
+2025-05-12T21:21:24.474670+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.freedesktop.impl.portal.desktop.gnome'
+2025-05-12T21:21:24.475331+00:00 Ubunto systemd[2951]: Started xdg-desktop-portal-gnome.service - Portal service (GNOME implementation).
+2025-05-12T21:21:24.603826+00:00 Ubunto systemd[2951]: Started org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+2025-05-12T21:21:24.606197+00:00 Ubunto systemd[2951]: Reached target gnome-session-x11-services-ready.target - GNOME session X11 services.
+2025-05-12T21:21:24.682011+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.681432 main     VBoxClient 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:23) release log
+2025-05-12T21:21:24.682089+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.681438 main     Log opened 2025-05-12T21:21:24.680017000Z
+2025-05-12T21:21:24.683096+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.682152 main     OS Product: Linux
+2025-05-12T21:21:24.683165+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.682178 main     OS Release: 6.11.0-21-generic
+2025-05-12T21:21:24.683202+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.682183 main     OS Version: #21~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 24 16:52:15 UTC 2
+2025-05-12T21:21:24.683245+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.682189 main     Executable: /opt/VBoxGuestAdditions-7.1.6/bin/VBoxClient
+2025-05-12T21:21:24.683379+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.682189 main     Process ID: 3850
+2025-05-12T21:21:24.683418+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.682190 main     Package type: LINUX_64BITS_GENERIC
+2025-05-12T21:21:24.683443+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.682283 main      VBoxClient 7.1.6 r167084 started. Verbose level = 0
+2025-05-12T21:21:24.683470+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.682474 main      rtldrNativeLoad: dlopen('libwayland-client.so', RTLD_NOW | RTLD_LOCAL) failed: libwayland-client.so: cannot open shared object file: No such file or directory
+2025-05-12T21:21:24.685199+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.685048 main      rtldrNativeLoad: dlopen('libX11.so', RTLD_NOW | RTLD_LOCAL) failed: libX11.so: cannot open shared object file: No such file or directory
+2025-05-12T21:21:24.689051+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.688913 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+2025-05-12T21:21:24.690040+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.689359 main      Service: Shared Clipboard
+2025-05-12T21:21:24.690112+00:00 Ubunto vboxclient.desktop[3850]: 21:21:24.689492 main      Daemonizing service ...
+2025-05-12T21:21:24.700355+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.699798 main     VBoxClient 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:23) release log
+2025-05-12T21:21:24.702110+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.699802 main     Log opened 2025-05-12T21:21:24.699787000Z
+2025-05-12T21:21:24.702166+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.700609 main     OS Product: Linux
+2025-05-12T21:21:24.702193+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.700631 main     OS Release: 6.11.0-21-generic
+2025-05-12T21:21:24.702218+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.700636 main     OS Version: #21~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 24 16:52:15 UTC 2
+2025-05-12T21:21:24.702243+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.700642 main     Executable: /opt/VBoxGuestAdditions-7.1.6/bin/VBoxClient
+2025-05-12T21:21:24.702269+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.700642 main     Process ID: 3854
+2025-05-12T21:21:24.702294+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.700643 main     Package type: LINUX_64BITS_GENERIC
+2025-05-12T21:21:24.702319+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.700652 main      VBoxClient 7.1.6 r167084 started. Verbose level = 0
+2025-05-12T21:21:24.702391+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.700857 main      rtldrNativeLoad: dlopen('libwayland-client.so', RTLD_NOW | RTLD_LOCAL) failed: libwayland-client.so: cannot open shared object file: No such file or directory
+2025-05-12T21:21:24.702421+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.701347 main      rtldrNativeLoad: dlopen('libX11.so', RTLD_NOW | RTLD_LOCAL) failed: libX11.so: cannot open shared object file: No such file or directory
+2025-05-12T21:21:24.707479+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.707037 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+2025-05-12T21:21:24.709509+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.707878 main      Service: Seamless Mode Support
+2025-05-12T21:21:24.710205+00:00 Ubunto vboxclient.desktop[3854]: 21:21:24.710070 main      Daemonizing service ...
+2025-05-12T21:21:24.715543+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.715056 main     VBoxClient 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:23) release log
+2025-05-12T21:21:24.718192+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.715059 main     Log opened 2025-05-12T21:21:24.715049000Z
+2025-05-12T21:21:24.718258+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.715874 main     OS Product: Linux
+2025-05-12T21:21:24.718291+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.715903 main     OS Release: 6.11.0-21-generic
+2025-05-12T21:21:24.718354+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.715908 main     OS Version: #21~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 24 16:52:15 UTC 2
+2025-05-12T21:21:24.718426+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.715914 main     Executable: /opt/VBoxGuestAdditions-7.1.6/bin/VBoxClient
+2025-05-12T21:21:24.718460+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.715914 main     Process ID: 3861
+2025-05-12T21:21:24.718490+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.715915 main     Package type: LINUX_64BITS_GENERIC
+2025-05-12T21:21:24.718519+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.715925 main      VBoxClient 7.1.6 r167084 started. Verbose level = 0
+2025-05-12T21:21:24.718548+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.716078 main      rtldrNativeLoad: dlopen('libwayland-client.so', RTLD_NOW | RTLD_LOCAL) failed: libwayland-client.so: cannot open shared object file: No such file or directory
+2025-05-12T21:21:24.718578+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.716873 main      rtldrNativeLoad: dlopen('libX11.so', RTLD_NOW | RTLD_LOCAL) failed: libX11.so: cannot open shared object file: No such file or directory
+2025-05-12T21:21:24.731182+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.730990 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+2025-05-12T21:21:24.731273+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.731097 main      Service: Drag'n'Drop
+2025-05-12T21:21:24.731305+00:00 Ubunto vboxclient.desktop[3861]: 21:21:24.731222 main      Daemonizing service ...
+2025-05-12T21:21:24.749231+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.748687 main     VBoxClient 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:23) release log
+2025-05-12T21:21:24.749298+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.748690 main     Log opened 2025-05-12T21:21:24.748679000Z
+2025-05-12T21:21:24.749661+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.749595 main     OS Product: Linux
+2025-05-12T21:21:24.750707+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.749715 main     OS Release: 6.11.0-21-generic
+2025-05-12T21:21:24.750769+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.749727 main     OS Version: #21~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 24 16:52:15 UTC 2
+2025-05-12T21:21:24.750916+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.749733 main     Executable: /opt/VBoxGuestAdditions-7.1.6/bin/VBoxClient
+2025-05-12T21:21:24.750981+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.749734 main     Process ID: 3871
+2025-05-12T21:21:24.751012+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.749734 main     Package type: LINUX_64BITS_GENERIC
+2025-05-12T21:21:24.751037+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.749744 main      VBoxClient 7.1.6 r167084 started. Verbose level = 0
+2025-05-12T21:21:24.751064+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.750090 main      rtldrNativeLoad: dlopen('libwayland-client.so', RTLD_NOW | RTLD_LOCAL) failed: libwayland-client.so: cannot open shared object file: No such file or directory
+2025-05-12T21:21:24.753285+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.752997 main      rtldrNativeLoad: dlopen('libX11.so', RTLD_NOW | RTLD_LOCAL) failed: libX11.so: cannot open shared object file: No such file or directory
+2025-05-12T21:21:24.762277+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.762183 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+2025-05-12T21:21:24.762498+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.762450 main      Service: VirtualBox host version check
+2025-05-12T21:21:24.762852+00:00 Ubunto vboxclient.desktop[3871]: 21:21:24.762808 main      Daemonizing service ...
+2025-05-12T21:21:24.766981+00:00 Ubunto rtkit-daemon[1440]: Supervising 15 threads of 9 processes of 2 users.
+2025-05-12T21:21:24.770064+00:00 Ubunto rtkit-daemon[1440]: Supervising 15 threads of 9 processes of 2 users.
+2025-05-12T21:21:24.772340+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.771313 main     VBoxClient 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:23) release log
+2025-05-12T21:21:24.772447+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.771316 main     Log opened 2025-05-12T21:21:24.771307000Z
+2025-05-12T21:21:24.772475+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.771351 main     OS Product: Linux
+2025-05-12T21:21:24.772501+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.771357 main     OS Release: 6.11.0-21-generic
+2025-05-12T21:21:24.772526+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.771362 main     OS Version: #21~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 24 16:52:15 UTC 2
+2025-05-12T21:21:24.772601+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.771367 main     Executable: /opt/VBoxGuestAdditions-7.1.6/bin/VBoxClient
+2025-05-12T21:21:24.772654+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.771368 main     Process ID: 3877
+2025-05-12T21:21:24.772679+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.771368 main     Package type: LINUX_64BITS_GENERIC
+2025-05-12T21:21:24.772704+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.771375 main      VBoxClient 7.1.6 r167084 started. Verbose level = 0
+2025-05-12T21:21:24.772731+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.771555 main      rtldrNativeLoad: dlopen('libwayland-client.so', RTLD_NOW | RTLD_LOCAL) failed: libwayland-client.so: cannot open shared object file: No such file or directory
+2025-05-12T21:21:24.773942+00:00 Ubunto rtkit-daemon[1440]: Supervising 15 threads of 9 processes of 2 users.
+2025-05-12T21:21:24.774776+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.774662 main      rtldrNativeLoad: dlopen('libX11.so', RTLD_NOW | RTLD_LOCAL) failed: libX11.so: cannot open shared object file: No such file or directory
+2025-05-12T21:21:24.779945+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.779838 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+2025-05-12T21:21:24.781264+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.779964 main      Service: VMSVGA display assistant
+2025-05-12T21:21:24.781327+00:00 Ubunto vboxclient.desktop[3877]: 21:21:24.780108 main      Daemonizing service ...
+2025-05-12T21:21:24.797137+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.89' (uid=1000 pid=3810 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+2025-05-12T21:21:24.816185+00:00 Ubunto systemd[2951]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+2025-05-12T21:21:24.934602+00:00 Ubunto gnome-shell[3864]: libEGL warning: DRI3: Screen seems not DRI3 capable
+2025-05-12T21:21:24.934706+00:00 Ubunto gnome-shell[3864]: libEGL warning: DRI3: Screen seems not DRI3 capable
+2025-05-12T21:21:25.026100+00:00 Ubunto gnome-shell[3185]: DING: (gjs:3771): Gjs-WARNING **: 21:21:24.944: GLib.unix_signal_add has been moved to a separate platform-specific library. Please update your code to use GLibUnix.signal_add instead.
+2025-05-12T21:21:25.027421+00:00 Ubunto gnome-shell[3185]: DING: 0 DesktopManager() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/desktopManager.js":263:12]
+2025-05-12T21:21:25.027971+00:00 Ubunto gnome-shell[3185]: DING: 1 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":180:25]
+2025-05-12T21:21:25.032107+00:00 Ubunto gnome-shell[3185]: DING: 2 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":197:20]
+2025-05-12T21:21:25.033245+00:00 Ubunto gnome-shell[3185]: DING: 3 <TOP LEVEL> ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":206:12]
+2025-05-12T21:21:25.041170+00:00 Ubunto gnome-shell[3185]: DING: ** Message: 21:21:25.037: Connecting to org.freedesktop.Tracker3.Miner.Files
+2025-05-12T21:21:25.059940+00:00 Ubunto gnome-shell[3864]: MESA: error: ZINK: failed to choose pdev
+2025-05-12T21:21:25.061875+00:00 Ubunto gnome-shell[3864]: libEGL warning: egl: failed to create dri2 screen
+2025-05-12T21:21:25.062232+00:00 Ubunto gnome-shell[3185]: DING: DBus interface for Switcheroo control (net.hadess.SwitcherooControl) is now available.
+2025-05-12T21:21:25.062601+00:00 Ubunto gnome-shell[3185]: DING: DBus interface for Gvfs daemon (org.gtk.vfs.Metadata) is now available.
+2025-05-12T21:21:25.192970+00:00 Ubunto gnome-shell[3185]: Received notification for window. 0 notifications remaining.
+2025-05-12T21:21:25.461302+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+2025-05-12T21:21:25.461811+00:00 Ubunto systemd[2951]: Started xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+2025-05-12T21:21:25.523321+00:00 Ubunto systemd[2951]: Started snap.firefox.firefox-61acffdf-a657-4f58-bbeb-e0cb98620ec1.scope.
+2025-05-12T21:21:25.541011+00:00 Ubunto kernel: audit: type=1400 audit(1747084885.538:164): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/24505/usr/lib/snapd/snap-confine" pid=3923 comm="snap-confine" capability=12  capname="net_admin"
+2025-05-12T21:21:25.541026+00:00 Ubunto kernel: audit: type=1400 audit(1747084885.538:165): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/24505/usr/lib/snapd/snap-confine" pid=3923 comm="snap-confine" capability=38  capname="perfmon"
+2025-05-12T21:21:25.548437+00:00 Ubunto kernel: audit: type=1400 audit(1747084885.546:166): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/24505/usr/lib/snapd/snap-confine" pid=3923 comm="snap-confine" capability=4  capname="fsetid"
+2025-05-12T21:21:25.568255+00:00 Ubunto systemd[1]: tmp-snap.rootfs_rOQc0f.mount: Deactivated successfully.
+2025-05-12T21:21:25.595962+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.freedesktop.portal.Desktop'
+2025-05-12T21:21:25.597990+00:00 Ubunto systemd[2951]: Started xdg-desktop-portal.service - Portal service.
+2025-05-12T21:21:25.832929+00:00 Ubunto kernel: audit: type=1400 audit(1747084885.828:167): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/usr/local/share/" pid=3951 comm="5" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2025-05-12T21:21:25.831457+00:00 Ubunto firefox_firefox.desktop[3951]: update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/local/share/doc /usr/local/share/doc none bind,ro 0 0): cannot open directory "/usr/local/share": permission denied
+2025-05-12T21:21:25.848420+00:00 Ubunto firefox_firefox.desktop[3951]: update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/gimp/2.0/help /usr/share/gimp/2.0/help none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/share/gimp/2.0/help" because it would affect the host in "/var/lib/snapd"
+2025-05-12T21:21:25.850151+00:00 Ubunto firefox_firefox.desktop[3951]: update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/gtk-doc /usr/share/gtk-doc none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/share/gtk-doc" because it would affect the host in "/var/lib/snapd"
+2025-05-12T21:21:25.853040+00:00 Ubunto firefox_firefox.desktop[3951]: update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/libreoffice/help /usr/share/libreoffice/help none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/share/libreoffice/help" because it would affect the host in "/var/lib/snapd"
+2025-05-12T21:21:25.855361+00:00 Ubunto firefox_firefox.desktop[3951]: update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/sphinx_rtd_theme /usr/share/sphinx_rtd_theme none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/share/sphinx_rtd_theme" because it would affect the host in "/var/lib/snapd"
+2025-05-12T21:21:25.857325+00:00 Ubunto firefox_firefox.desktop[3951]: update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/xubuntu-docs /usr/share/xubuntu-docs none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/share/xubuntu-docs" because it would affect the host in "/var/lib/snapd"
+2025-05-12T21:21:25.969083+00:00 Ubunto kernel: audit: type=1400 audit(1747084885.967:168): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/proc/3963/maps" pid=3963 comm="5" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-05-12T21:21:25.985643+00:00 Ubunto gnome-shell[3185]: DING: DBus interface for Nautilus (org.gnome.Nautilus.FileOperations2) is now available.
+2025-05-12T21:21:25.986796+00:00 Ubunto gnome-shell[3185]: DING: DBus interface for Nautilus (org.freedesktop.FileManager1) is now available.
+2025-05-12T21:21:26.086653+00:00 Ubunto gnome-shell[3185]: DING: GNOME nautilus 46.2
+2025-05-12T21:21:27.397472+00:00 Ubunto firefox[3923]: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+2025-05-12T21:21:27.901709+00:00 Ubunto geoclue[1870]: Service not used for 60 seconds. Shutting down..
+2025-05-12T21:21:27.907256+00:00 Ubunto systemd[1]: geoclue.service: Deactivated successfully.
+2025-05-12T21:21:30.554250+00:00 Ubunto dbus-daemon[778]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.108' (uid=1000 pid=3923 comm="/snap/firefox/6042/usr/lib/firefox/firefox" label="snap.firefox.firefox (enforce)")
+2025-05-12T21:21:30.571197+00:00 Ubunto systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2025-05-12T21:21:30.819462+00:00 Ubunto dbus-daemon[778]: [system] Successfully activated service 'org.freedesktop.timedate1'
+2025-05-12T21:21:30.820020+00:00 Ubunto systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2025-05-12T21:21:30.834222+00:00 Ubunto kernel: audit: type=1107 audit(1747084890.832:169): pid=778 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/timedate1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.109" pid=3923 label="snap.firefox.firefox" peer_pid=4112 peer_label="unconfined"
+2025-05-12T21:21:30.834244+00:00 Ubunto kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-05-12T21:21:30.834246+00:00 Ubunto kernel: audit: type=1107 audit(1747084890.832:170): pid=778 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/timedate1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.109" pid=3923 label="snap.firefox.firefox" peer_pid=4112 peer_label="unconfined"
+2025-05-12T21:21:30.834247+00:00 Ubunto kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-05-12T21:21:31.521533+00:00 Ubunto rtkit-daemon[1440]: Supervising 15 threads of 9 processes of 2 users.
+2025-05-12T21:21:31.574020+00:00 Ubunto rtkit-daemon[1440]: message repeated 3 times: [ Supervising 15 threads of 9 processes of 2 users.]
+2025-05-12T21:21:31.585480+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 4155 of process 3923 owned by '1000' RT at priority 10.
+2025-05-12T21:21:31.585581+00:00 Ubunto rtkit-daemon[1440]: Supervising 16 threads of 10 processes of 2 users.
+2025-05-12T21:21:32.458291+00:00 Ubunto rtkit-daemon[1440]: message repeated 6 times: [ Supervising 16 threads of 10 processes of 2 users.]
+2025-05-12T21:21:32.925487+00:00 Ubunto systemd[1]: Stopping user@120.service - User Manager for UID 120...
+2025-05-12T21:21:33.162422+00:00 Ubunto systemd[1341]: Activating special unit exit.target...
+2025-05-12T21:21:33.163203+00:00 Ubunto systemd[1341]: Stopped target default.target - Main User Target.
+2025-05-12T21:21:33.163592+00:00 Ubunto systemd[1341]: Stopping dbus.service - D-Bus User Message Bus...
+2025-05-12T21:21:33.164870+00:00 Ubunto systemd[1341]: Stopping filter-chain.service - PipeWire filter chain daemon...
+2025-05-12T21:21:33.164993+00:00 Ubunto systemd[1341]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+2025-05-12T21:21:33.165049+00:00 Ubunto systemd[1341]: Stopping xdg-document-portal.service - flatpak document portal service...
+2025-05-12T21:21:33.165114+00:00 Ubunto systemd[1341]: Stopping xdg-permission-store.service - sandboxed app permission store...
+2025-05-12T21:21:33.168827+00:00 Ubunto systemd[1341]: Stopped dbus.service - D-Bus User Message Bus.
+2025-05-12T21:21:33.179571+00:00 Ubunto systemd[1]: run-user-120-doc.mount: Deactivated successfully.
+2025-05-12T21:21:33.180742+00:00 Ubunto systemd[1341]: Stopped filter-chain.service - PipeWire filter chain daemon.
+2025-05-12T21:21:33.184928+00:00 Ubunto systemd[1341]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+2025-05-12T21:21:33.186029+00:00 Ubunto systemd[1341]: xdg-document-portal.service: Main process exited, code=exited, status=20/n/a
+2025-05-12T21:21:33.187320+00:00 Ubunto systemd[1341]: Stopped xdg-permission-store.service - sandboxed app permission store.
+2025-05-12T21:21:33.187599+00:00 Ubunto systemd[1341]: xdg-document-portal.service: Failed with result 'exit-code'.
+2025-05-12T21:21:33.188015+00:00 Ubunto systemd[1341]: Stopped xdg-document-portal.service - flatpak document portal service.
+2025-05-12T21:21:33.189079+00:00 Ubunto systemd[1341]: Stopping wireplumber.service - Multimedia Service Session Manager...
+2025-05-12T21:21:33.189480+00:00 Ubunto wireplumber[1401]: stopped by signal: Terminated
+2025-05-12T21:21:33.190163+00:00 Ubunto wireplumber[1401]: disconnected from pipewire
+2025-05-12T21:21:33.194985+00:00 Ubunto systemd[1341]: Stopped wireplumber.service - Multimedia Service Session Manager.
+2025-05-12T21:21:33.195333+00:00 Ubunto systemd[1341]: Stopping pipewire.service - PipeWire Multimedia Service...
+2025-05-12T21:21:33.200041+00:00 Ubunto systemd[1341]: Stopped pipewire.service - PipeWire Multimedia Service.
+2025-05-12T21:21:33.202091+00:00 Ubunto systemd[1341]: Removed slice session.slice - User Core Session Slice.
+2025-05-12T21:21:33.202222+00:00 Ubunto systemd[1341]: Stopped target basic.target - Basic System.
+2025-05-12T21:21:33.202331+00:00 Ubunto systemd[1341]: Stopped target paths.target - Paths.
+2025-05-12T21:21:33.202394+00:00 Ubunto systemd[1341]: Stopped ubuntu-report.path - Pending report trigger for Ubuntu Report.
+2025-05-12T21:21:33.202449+00:00 Ubunto systemd[1341]: Stopped target sockets.target - Sockets.
+2025-05-12T21:21:33.202512+00:00 Ubunto systemd[1341]: Stopped target timers.target - Timers.
+2025-05-12T21:21:33.202576+00:00 Ubunto systemd[1341]: Stopped launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+2025-05-12T21:21:33.202628+00:00 Ubunto systemd[1341]: Stopped snap.firmware-updater.firmware-notifier.timer - Timer firmware-notifier for snap application firmware-updater.firmware-notifier.
+2025-05-12T21:21:33.203580+00:00 Ubunto systemd[1341]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2025-05-12T21:21:33.204047+00:00 Ubunto systemd[1341]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2025-05-12T21:21:33.204146+00:00 Ubunto systemd[1341]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-05-12T21:21:33.204394+00:00 Ubunto systemd[1341]: Closed gnome-keyring-daemon.socket - GNOME Keyring daemon.
+2025-05-12T21:21:33.204635+00:00 Ubunto systemd[1341]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2025-05-12T21:21:33.204949+00:00 Ubunto systemd[1341]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2025-05-12T21:21:33.213233+00:00 Ubunto systemd[1341]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-05-12T21:21:33.213430+00:00 Ubunto systemd[1341]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2025-05-12T21:21:33.213508+00:00 Ubunto systemd[1341]: Closed keyboxd.socket - GnuPG public key management service.
+2025-05-12T21:21:33.213594+00:00 Ubunto systemd[1341]: Closed pipewire-pulse.socket - PipeWire PulseAudio.
+2025-05-12T21:21:33.213659+00:00 Ubunto systemd[1341]: Closed pipewire.socket - PipeWire Multimedia System Sockets.
+2025-05-12T21:21:33.213722+00:00 Ubunto systemd[1341]: Closed pk-debconf-helper.socket - debconf communication socket.
+2025-05-12T21:21:33.213827+00:00 Ubunto systemd[1341]: Closed snapd.session-agent.socket - REST API socket for snapd user session agent.
+2025-05-12T21:21:33.214205+00:00 Ubunto systemd[1341]: Closed speech-dispatcher.socket - Speech Dispatcher Socket.
+2025-05-12T21:21:33.266675+00:00 Ubunto systemd[1341]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-05-12T21:21:33.267221+00:00 Ubunto systemd[1341]: Removed slice app.slice - User Application Slice.
+2025-05-12T21:21:33.267359+00:00 Ubunto systemd[1341]: Reached target shutdown.target - Shutdown.
+2025-05-12T21:21:33.267430+00:00 Ubunto systemd[1341]: Finished systemd-exit.service - Exit the Session.
+2025-05-12T21:21:33.267590+00:00 Ubunto systemd[1341]: Reached target exit.target - Exit the Session.
+2025-05-12T21:21:33.286663+00:00 Ubunto systemd[1]: user@120.service: Deactivated successfully.
+2025-05-12T21:21:33.287556+00:00 Ubunto systemd[1]: Stopped user@120.service - User Manager for UID 120.
+2025-05-12T21:21:33.288134+00:00 Ubunto systemd[1]: user@120.service: Consumed 2.007s CPU time.
+2025-05-12T21:21:33.305062+00:00 Ubunto systemd[1]: Stopping user-runtime-dir@120.service - User Runtime Directory /run/user/120...
+2025-05-12T21:21:33.332474+00:00 Ubunto systemd[1]: run-user-120.mount: Deactivated successfully.
+2025-05-12T21:21:33.334548+00:00 Ubunto systemd[1]: user-runtime-dir@120.service: Deactivated successfully.
+2025-05-12T21:21:33.335153+00:00 Ubunto systemd[1]: Stopped user-runtime-dir@120.service - User Runtime Directory /run/user/120.
+2025-05-12T21:21:33.341058+00:00 Ubunto systemd[1]: Removed slice user-120.slice - User Slice of UID 120.
+2025-05-12T21:21:33.342072+00:00 Ubunto systemd[1]: user-120.slice: Consumed 12.482s CPU time.
+2025-05-12T21:21:33.342761+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating service name='io.snapcraft.Settings' requested by ':1.104' (uid=1000 pid=4257 comm="dbus-send --print-reply=literal --session --dest=i" label="snap.firefox.firefox (enforce)")
+2025-05-12T21:21:33.397557+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'io.snapcraft.Settings'
+2025-05-12T21:21:33.398756+00:00 Ubunto io.snapcraft.Settings[4261]: userd.go:93: Starting snap userd
+2025-05-12T21:21:34.865497+00:00 Ubunto rtkit-daemon[1440]: Supervising 9 threads of 6 processes of 1 users.
+2025-05-12T21:21:38.680391+00:00 Ubunto rtkit-daemon[1440]: message repeated 3 times: [ Supervising 9 threads of 6 processes of 1 users.]
+2025-05-12T21:21:39.307164+00:00 Ubunto tracker-miner-fs-3[4959]: (tracker-extract-3:4959): GLib-GIO-WARNING **: 21:21:39.306: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-05-12T21:21:52.880432+00:00 Ubunto systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2025-05-12T21:21:52.974035+00:00 Ubunto systemd[1]: systemd-localed.service: Deactivated successfully.
+2025-05-12T21:21:55.052555+00:00 Ubunto tracker-miner-fs-3[5056]: (tracker-extract-3:5056): GLib-GIO-WARNING **: 21:21:55.051: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-05-12T21:21:58.373339+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 3209 of process 3185 owned by '1000' high priority at nice level 0.
+2025-05-12T21:21:58.373515+00:00 Ubunto rtkit-daemon[1440]: Supervising 9 threads of 6 processes of 1 users.
+2025-05-12T21:21:58.375198+00:00 Ubunto rtkit-daemon[1440]: Supervising 8 threads of 5 processes of 1 users.
+2025-05-12T21:21:58.376436+00:00 Ubunto rtkit-daemon[1440]: Supervising 8 threads of 5 processes of 1 users.
+2025-05-12T21:21:58.381685+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 3209 of process 3185 owned by '1000' RT at priority 20.
+2025-05-12T21:21:58.381816+00:00 Ubunto rtkit-daemon[1440]: Supervising 9 threads of 6 processes of 1 users.
+2025-05-12T21:21:58.488192+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 3209 of process 3185 owned by '1000' high priority at nice level 0.
+2025-05-12T21:21:58.488373+00:00 Ubunto rtkit-daemon[1440]: Supervising 9 threads of 6 processes of 1 users.
+2025-05-12T21:21:58.494949+00:00 Ubunto rtkit-daemon[1440]: Supervising 8 threads of 5 processes of 1 users.
+2025-05-12T21:21:58.497333+00:00 Ubunto rtkit-daemon[1440]: Supervising 8 threads of 5 processes of 1 users.
+2025-05-12T21:21:58.503955+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 3209 of process 3185 owned by '1000' RT at priority 20.
+2025-05-12T21:21:58.504115+00:00 Ubunto rtkit-daemon[1440]: Supervising 9 threads of 6 processes of 1 users.
+2025-05-12T21:21:59.280350+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2025-05-12T21:21:59.280486+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2025-05-12T21:21:59.280939+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2025-05-12T21:21:59.281029+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2025-05-12T21:21:59.281074+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2025-05-12T21:21:59.281105+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2025-05-12T21:21:59.281292+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2025-05-12T21:21:59.281375+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2025-05-12T21:21:59.281459+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2025-05-12T21:21:59.281486+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2025-05-12T21:21:59.281546+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2025-05-12T21:21:59.281570+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2025-05-12T21:21:59.281593+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2025-05-12T21:21:59.281623+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2025-05-12T21:21:59.281656+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2025-05-12T21:21:59.281680+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2025-05-12T21:21:59.281703+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2025-05-12T21:21:59.281725+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2025-05-12T21:22:00.634703+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 3209 of process 3185 owned by '1000' high priority at nice level 0.
+2025-05-12T21:22:00.634829+00:00 Ubunto rtkit-daemon[1440]: Supervising 9 threads of 6 processes of 1 users.
+2025-05-12T21:22:00.636505+00:00 Ubunto rtkit-daemon[1440]: Supervising 8 threads of 5 processes of 1 users.
+2025-05-12T21:22:00.637452+00:00 Ubunto rtkit-daemon[1440]: Supervising 8 threads of 5 processes of 1 users.
+2025-05-12T21:22:00.643881+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 3209 of process 3185 owned by '1000' RT at priority 20.
+2025-05-12T21:22:00.644029+00:00 Ubunto rtkit-daemon[1440]: Supervising 9 threads of 6 processes of 1 users.
+2025-05-12T21:22:00.731352+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 3209 of process 3185 owned by '1000' high priority at nice level 0.
+2025-05-12T21:22:00.731672+00:00 Ubunto rtkit-daemon[1440]: Supervising 9 threads of 6 processes of 1 users.
+2025-05-12T21:22:00.736969+00:00 Ubunto rtkit-daemon[1440]: Supervising 8 threads of 5 processes of 1 users.
+2025-05-12T21:22:00.738459+00:00 Ubunto rtkit-daemon[1440]: Supervising 8 threads of 5 processes of 1 users.
+2025-05-12T21:22:00.743984+00:00 Ubunto rtkit-daemon[1440]: Successfully made thread 3209 of process 3185 owned by '1000' RT at priority 20.
+2025-05-12T21:22:00.744114+00:00 Ubunto rtkit-daemon[1440]: Supervising 9 threads of 6 processes of 1 users.
+2025-05-12T21:22:00.849039+00:00 Ubunto systemd[1]: systemd-timedated.service: Deactivated successfully.
+2025-05-12T21:22:00.859323+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2025-05-12T21:22:00.859628+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2025-05-12T21:22:00.859673+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2025-05-12T21:22:00.859706+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2025-05-12T21:22:00.859740+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2025-05-12T21:22:00.859776+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2025-05-12T21:22:00.859828+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2025-05-12T21:22:00.860411+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2025-05-12T21:22:00.860537+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2025-05-12T21:22:00.860567+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2025-05-12T21:22:00.860595+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2025-05-12T21:22:00.860626+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2025-05-12T21:22:00.860706+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2025-05-12T21:22:00.860748+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2025-05-12T21:22:00.860801+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2025-05-12T21:22:00.860835+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2025-05-12T21:22:00.860857+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2025-05-12T21:22:00.860886+00:00 Ubunto gnome-shell[3185]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2025-05-12T21:22:20.869594+00:00 Ubunto systemd[2951]: Started app-gnome-ubuntu\x2dadvantage\x2dnotification-5137.scope - Application launched by gnome-session-binary.
+2025-05-12T21:22:20.871070+00:00 Ubunto systemd[2951]: Started app-gnome-update\x2dnotifier-5134.scope - Application launched by gnome-session-binary.
+2025-05-12T21:22:26.255792+00:00 Ubunto update-notifier.desktop[5183]: #015Reading package lists... 0%#015#015Reading package lists... 100%#015#015Reading package lists... Done
+2025-05-12T21:22:26.661666+00:00 Ubunto update-notifier.desktop[5183]: #015Building dependency tree... 0%#015#015Building dependency tree... 0%#015#015Building dependency tree... 50%#015#015Building dependency tree... 50%#015#015Building dependency tree... Done
+2025-05-12T21:22:26.666091+00:00 Ubunto update-notifier.desktop[5183]: #015Reading state information... 0% #015#015Reading state information... 0%#015#015Reading state information... Done
+2025-05-12T21:22:31.565797+00:00 Ubunto update-notifier.desktop[5200]: WARNING:root:can not import unity GI Namespace Dbusmenu not available
+2025-05-12T21:24:09.719439+00:00 Ubunto systemd[2951]: Started app-gnome-org.gnome.Terminal-5433.scope - Application launched by gnome-shell.
+2025-05-12T21:24:10.029824+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.118' (uid=1000 pid=5437 comm="/usr/bin/gnome-terminal.real" label="unconfined")
+2025-05-12T21:24:10.034861+00:00 Ubunto systemd[2951]: Created slice app-org.gnome.Terminal.slice - Slice /app/org.gnome.Terminal.
+2025-05-12T21:24:10.043932+00:00 Ubunto systemd[2951]: Starting gnome-terminal-server.service - GNOME Terminal Server...
+2025-05-12T21:24:10.445173+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gnome.Terminal'
+2025-05-12T21:24:10.445854+00:00 Ubunto systemd[2951]: Started gnome-terminal-server.service - GNOME Terminal Server.
+2025-05-12T21:24:10.584793+00:00 Ubunto gnome-shell[3185]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2025-05-12T21:24:10.608471+00:00 Ubunto systemd[2951]: Started vte-spawn-c1f026d5-fde0-4527-97f4-e566aefe6384.scope - VTE child process 5451 launched by gnome-terminal-server process 5443.
+2025-05-12T21:25:01.104362+00:00 Ubunto CRON[5537]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2025-05-12T21:25:17.726651+00:00 Ubunto anacron[769]: Job `cron.daily' started
+2025-05-12T21:25:17.741658+00:00 Ubunto anacron[5556]: Updated timestamp for job `cron.daily' to 2025-05-12
+2025-05-12T21:25:17.754153+00:00 Ubunto systemd[1]: Starting update-notifier-download.service - Download data for packages that failed at package install time...
+2025-05-12T21:25:17.763365+00:00 Ubunto anacron[769]: Job `cron.daily' terminated
+2025-05-12T21:25:17.955636+00:00 Ubunto systemd[1]: update-notifier-download.service: Deactivated successfully.
+2025-05-12T21:25:17.956010+00:00 Ubunto systemd[1]: Finished update-notifier-download.service - Download data for packages that failed at package install time.
+2025-05-12T21:25:26.180868+00:00 Ubunto tracker-miner-fs-3[5574]: (tracker-extract-3:5574): GLib-GIO-WARNING **: 21:25:26.180: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-05-12T21:25:26.546205+00:00 Ubunto dbus-daemon[778]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.35' (uid=0 pid=842 comm="/usr/lib/snapd/snapd" label="unconfined")
+2025-05-12T21:25:26.568785+00:00 Ubunto systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2025-05-12T21:25:26.637646+00:00 Ubunto dbus-daemon[778]: [system] Successfully activated service 'org.freedesktop.timedate1'
+2025-05-12T21:25:26.638430+00:00 Ubunto systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2025-05-12T21:25:26.640283+00:00 Ubunto kernel: audit: type=1107 audit(1747085126.638:171): pid=778 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/timedate1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.122" pid=3923 label="snap.firefox.firefox" peer_pid=5580 peer_label="unconfined"
+2025-05-12T21:25:26.640309+00:00 Ubunto kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-05-12T21:25:51.035957+00:00 Ubunto tracker-miner-fs-3[5631]: (tracker-extract-3:5631): GLib-GIO-WARNING **: 21:25:51.035: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-05-12T21:25:56.670109+00:00 Ubunto systemd[1]: systemd-timedated.service: Deactivated successfully.
+2025-05-12T21:26:18.424777+00:00 Ubunto systemd[2951]: launchpadlib-cache-clean.service - Clean up old files in the Launchpadlib cache was skipped because of an unmet condition check (ConditionPathExists=/home/vboxuser/.launchpadlib/api.launchpad.net/cache).
+2025-05-12T21:26:21.892539+00:00 Ubunto PackageKit: daemon quit
+2025-05-12T21:26:21.901355+00:00 Ubunto systemd[1]: packagekit.service: Deactivated successfully.
+2025-05-12T21:26:37.453968+00:00 Ubunto kernel: ------------[ cut here ]------------
+2025-05-12T21:26:37.453992+00:00 Ubunto kernel: UBSAN: array-index-out-of-bounds in /tmp/vbox.0/VBoxGuestR0LibHGCMInternal.c:643:46
+2025-05-12T21:26:37.453994+00:00 Ubunto kernel: index 1 is out of range for type 'RTGCPHYS64 [1]'
+2025-05-12T21:26:37.453996+00:00 Ubunto kernel: CPU: 2 UID: 1000 PID: 3858 Comm: VBoxClient Tainted: G        W  OE      6.11.0-21-generic #21~24.04.1-Ubuntu
+2025-05-12T21:26:37.453998+00:00 Ubunto kernel: Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+2025-05-12T21:26:37.454000+00:00 Ubunto kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+2025-05-12T21:26:37.454018+00:00 Ubunto kernel: Call Trace:
+2025-05-12T21:26:37.454019+00:00 Ubunto kernel:  <TASK>
+2025-05-12T21:26:37.454020+00:00 Ubunto kernel:  dump_stack_lvl+0x76/0xa0
+2025-05-12T21:26:37.454021+00:00 Ubunto kernel:  dump_stack+0x10/0x20
+2025-05-12T21:26:37.455198+00:00 Ubunto kernel:  __ubsan_handle_out_of_bounds+0xcb/0x110
+2025-05-12T21:26:37.455227+00:00 Ubunto kernel:  VbglR0HGCMInternalCall+0x15ff/0x1980 [vboxguest]
+2025-05-12T21:26:37.455229+00:00 Ubunto kernel:  ? __pfx_vgdrvHgcmAsyncWaitCallbackInterruptible+0x10/0x10 [vboxguest]
+2025-05-12T21:26:37.455230+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455231+00:00 Ubunto kernel:  vgdrvIoCtl_HGCMCallInner.constprop.0+0x158/0x2e0 [vboxguest]
+2025-05-12T21:26:37.455231+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455233+00:00 Ubunto kernel:  ? __kmalloc_noprof+0x192/0x490
+2025-05-12T21:26:37.455234+00:00 Ubunto kernel:  VGDrvCommonIoCtl+0x65c/0x1d10 [vboxguest]
+2025-05-12T21:26:37.455235+00:00 Ubunto kernel:  ? __check_object_size.part.0+0x72/0x150
+2025-05-12T21:26:37.455236+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455237+00:00 Ubunto kernel:  ? _copy_from_user+0x57/0x90
+2025-05-12T21:26:37.455238+00:00 Ubunto kernel:  vgdrvLinuxIOCtl+0x107/0x290 [vboxguest]
+2025-05-12T21:26:37.455239+00:00 Ubunto kernel:  __x64_sys_ioctl+0xa3/0xf0
+2025-05-12T21:26:37.455239+00:00 Ubunto kernel:  x64_sys_call+0x11ad/0x25f0
+2025-05-12T21:26:37.455240+00:00 Ubunto kernel:  do_syscall_64+0x7e/0x170
+2025-05-12T21:26:37.455241+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455241+00:00 Ubunto kernel:  ? save_fpregs_to_fpstate+0x1b/0x60
+2025-05-12T21:26:37.455242+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455244+00:00 Ubunto kernel:  ? kernel_fpu_begin_mask+0xc7/0xe0
+2025-05-12T21:26:37.455244+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455245+00:00 Ubunto kernel:  ? blake2s_compress+0x57/0xc0
+2025-05-12T21:26:37.455245+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455246+00:00 Ubunto kernel:  ? blake2s_update+0xbb/0x190
+2025-05-12T21:26:37.455247+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455248+00:00 Ubunto kernel:  ? update_load_avg+0x82/0x840
+2025-05-12T21:26:37.455249+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455250+00:00 Ubunto kernel:  ? sched_clock_noinstr+0x9/0x10
+2025-05-12T21:26:37.455251+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455252+00:00 Ubunto kernel:  ? sched_clock+0x10/0x30
+2025-05-12T21:26:37.455252+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455253+00:00 Ubunto kernel:  ? __update_blocked_fair+0xa4/0x5a0
+2025-05-12T21:26:37.455254+00:00 Ubunto kernel:  ? sched_clock+0x10/0x30
+2025-05-12T21:26:37.455254+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455255+00:00 Ubunto kernel:  ? sched_clock_cpu+0x10/0x1e0
+2025-05-12T21:26:37.455256+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455257+00:00 Ubunto kernel:  ? __note_gp_changes+0x1c4/0x210
+2025-05-12T21:26:37.455257+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455258+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455261+00:00 Ubunto kernel:  ? _raw_spin_unlock_irqrestore+0x11/0x60
+2025-05-12T21:26:37.455262+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455263+00:00 Ubunto kernel:  ? rseq_get_rseq_cs+0x22/0x260
+2025-05-12T21:26:37.455264+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455265+00:00 Ubunto kernel:  ? rseq_ip_fixup+0x8f/0x1f0
+2025-05-12T21:26:37.455265+00:00 Ubunto kernel:  ? task_mm_cid_work+0x1de/0x2d0
+2025-05-12T21:26:37.455266+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455267+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455268+00:00 Ubunto kernel:  ? restore_fpregs_from_fpstate+0x3d/0xd0
+2025-05-12T21:26:37.455269+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455270+00:00 Ubunto kernel:  ? switch_fpu_return+0x50/0xe0
+2025-05-12T21:26:37.455271+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455271+00:00 Ubunto kernel:  ? irqentry_exit_to_user_mode+0x182/0x250
+2025-05-12T21:26:37.455272+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455273+00:00 Ubunto kernel:  ? irqentry_exit+0x43/0x50
+2025-05-12T21:26:37.455274+00:00 Ubunto kernel:  ? srso_return_thunk+0x5/0x5f
+2025-05-12T21:26:37.455274+00:00 Ubunto kernel:  ? sysvec_apic_timer_interrupt+0x57/0xc0
+2025-05-12T21:26:37.455275+00:00 Ubunto kernel:  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+2025-05-12T21:26:37.455276+00:00 Ubunto kernel: RIP: 0033:0x7e7256524ded
+2025-05-12T21:26:37.455277+00:00 Ubunto kernel: Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 1a 48 8b 45 c8 64 48 2b 04 25 28 00 00 00
+2025-05-12T21:26:37.455278+00:00 Ubunto kernel: RSP: 002b:00007e7254be5c40 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+2025-05-12T21:26:37.455278+00:00 Ubunto kernel: RAX: ffffffffffffffda RBX: 00007e7254be5cd0 RCX: 00007e7256524ded
+2025-05-12T21:26:37.455279+00:00 Ubunto kernel: RDX: 00007e7254be5cd0 RSI: 00000000c0585607 RDI: 0000000000000003
+2025-05-12T21:26:37.455280+00:00 Ubunto kernel: RBP: 00007e7254be5c90 R08: 00007e72480008e0 R09: 0000000000000007
+2025-05-12T21:26:37.455280+00:00 Ubunto kernel: R10: 00007e724c025d60 R11: 0000000000000246 R12: 00000000005c0c00
+2025-05-12T21:26:37.455281+00:00 Ubunto kernel: R13: 0000000000001f80 R14: 00007e724c02b660 R15: 0000000000000001
+2025-05-12T21:26:37.455282+00:00 Ubunto kernel:  </TASK>
+2025-05-12T21:26:37.455283+00:00 Ubunto kernel: ---[ end trace ]---
+2025-05-12T21:29:42.545047+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Activating service name='org.gnome.Nautilus' requested by ':1.33' (uid=1000 pid=3185 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-05-12T21:29:42.642785+00:00 Ubunto nautilus[5949]: Connecting to org.freedesktop.Tracker3.Miner.Files
+2025-05-12T21:29:42.644797+00:00 Ubunto dbus-daemon[2975]: [session uid=1000 pid=2975] Successfully activated service 'org.gnome.Nautilus'
+2025-05-12T21:29:44.318534+00:00 Ubunto dbus-daemon[778]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.123' (uid=1000 pid=5949 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+2025-05-12T21:29:44.324744+00:00 Ubunto gnome-shell[3185]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2025-05-12T21:29:44.336826+00:00 Ubunto systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2025-05-12T21:29:44.454665+00:00 Ubunto dbus-daemon[778]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2025-05-12T21:29:44.454772+00:00 Ubunto systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2025-05-12T21:29:44.970386+00:00 Ubunto gnome-shell[3185]: Invalid sequence for VSYNC frame info
+2025-05-12T21:29:48.885579+00:00 Ubunto tracker-miner-fs-3[6014]: (tracker-extract-3:6014): GLib-GIO-WARNING **: 21:29:48.885: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-05-12T21:30:01.133746+00:00 Ubunto CRON[6039]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2025-05-12T21:30:04.348839+00:00 Ubunto tracker-miner-fs-3[6048]: (tracker-extract-3:6048): GLib-GIO-WARNING **: 21:30:04.348: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-05-12T21:30:05.439600+00:00 Ubunto systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-05-12T21:30:05.463160+00:00 Ubunto systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-05-12T21:30:05.463883+00:00 Ubunto systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-05-12T21:30:15.024591+00:00 Ubunto systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2025-05-12T21:30:17.728096+00:00 Ubunto anacron[769]: Job `cron.weekly' started
+2025-05-12T21:30:17.766470+00:00 Ubunto anacron[6076]: Updated timestamp for job `cron.weekly' to 2025-05-12
+2025-05-12T21:30:17.767395+00:00 Ubunto anacron[769]: Job `cron.weekly' terminated
+2025-05-12T21:30:22.707544+00:00 Ubunto snapd[842]: devicemgr.go:2632: no NTP sync after 10m0s, trying auto-refresh anyway
+2025-05-12T21:30:24.711687+00:00 Ubunto snapd[842]: storehelpers.go:916: cannot refresh: snap has no updates available: "bare", "core22", "firefox", "firmware-updater", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+2025-05-12T21:30:42.134409+00:00 Ubunto tracker-miner-fs-3[6115]: (tracker-extract-3:6115): GLib-GIO-WARNING **: 21:30:42.133: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)

@@ -1,0 +1,49 @@
+# 📦 Instalação do Splunk (Linux)
+
+## 1. Download do Splunk Enterprise:
+Acesse: https://www.splunk.com/en_us/download/splunk-enterprise.html
+
+## 2. Instalação no Linux:
+```bash
+sudo dpkg -i splunk-package.deb
+
+## 3. Aceitar licença e iniciar Splunk:
+
+```bash
+sudo /opt/splunk/bin/splunk start --accept-license
+
+## 4. Acesso via navegador:
+
+http://localhost:8000
+
+
+### Gerar Logs de Falhas de Login ###
+
+## 1. Criar usuários falsos:
+
+```bash
+sudo adduser testeuser
+sudo adduser fakeuser
+
+## 2. Simular tentativas de login com senha errada:
+
+```bash
+ssh testeuser@localhost
+ssh fakeuser@localhost
+
+### IMPORTAR LOGS NO SPLUNK ###
+
+
+## 1. No Splunk Web:
+- Ir em: Settings > Add Data > Upload.
+
+## 2. Selecionar arquivo:
+
+- /var/log/auth.log
+
+## 3. Configurar:
+
+- Sourcetype: linux:auth
+- Index: main
+
+## 4. Concluir e iniciar buscas.
